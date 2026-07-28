@@ -3,20 +3,16 @@ Scraper Welcome To The Jungle via les endpoints Algolia/Search publics.
 """
 
 from scrapers.base import BaseScraper
-from config.settings import TARGET_KEYWORDS
 
 class WTTJScraper(BaseScraper):
     def __init__(self):
         super().__init__("Welcome To The Jungle")
 
-    def fetch_jobs() -> list[dict]:
+    def fetch_jobs(self) -> list[dict]:
         print(f"🔍 [{self.name}] Recherche d'offres en cours...")
         jobs = []
         
-        # Endpoints JSON publics de recherche WTTJ
         base_url = "https://www.welcometothejungle.com/api/v1/jobs"
-        
-        # Sélection de mots-clés prioritaires
         query_keywords = ["M&A", "Transaction Services", "FP&A", "Corporate Finance", "Investment Banking"]
 
         for kw in query_keywords:
@@ -24,7 +20,7 @@ class WTTJScraper(BaseScraper):
                 "query": kw,
                 "page": 1,
                 "per_page": 15,
-                "in_around_lat_lng": "48.8566,2.3522",  # Centré France / Europe
+                "in_around_lat_lng": "48.8566,2.3522",
             }
             
             res = self.safe_get(base_url, params=params)
