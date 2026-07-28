@@ -22,14 +22,19 @@ def send_telegram_alert(job: dict, analysis: dict) -> bool:
     elif score >= 70:
         badge = "🎯 *OPPORTUNITÉ PERTINENTE*"
     else:
-        badge = "📌 *OPPORTUNITÉ AVALUÉE*"
+        badge = "📌 *OPPORTUNITÉ ÉVALUÉE*"
 
-    # Nettoyage des textes pour éviter les bugs de parse_mode Markdown sur Telegram
-    company = job.get("company", "Non précisée").replace("*", "").replace("_", "")
-    title = job.get("title", "Poste Finance").replace("*", "").replace("_", "")
-    location = job.get("location", "Non précisé").replace("*", "").replace("_", "")
-    source = job.get("source", "Web").replace("*", "").replace("_", "")
-    date_pub = job.get("date", "Récemment").replace("*", "").replace("_", "")
+    # Nettoyage des textes
+    company = str(job.get("company", "Non précisée")).replace("*", "").replace("_", "")
+    title = str(job.get("title", "Poste Finance")).replace("*", "").replace("_", "")
+    location = str(job.get("location", "Non précisé")).replace("*", "").replace("_", "")
+    source = str(job.get("source", "Web")).replace("*", "").replace("_", "")
+    date_pub = str(job.get("date", "Récemment")).replace("*", "").replace("_", "")
+
+    summary_text = str(analysis.get("summary", "Analyse automatique de l'offre."))
+    pros_text = str(analysis.get("pros", "Excellente adéquation de profil."))
+    cons_text = str(analysis.get("cons", "Aucun point bloquant majeur."))
+    pitch_text = str(analysis.get("pitch", "")).strip()
 
     message = (
         f"{badge} *({score}% de chance d'entretien)*\n"
@@ -39,10 +44,10 @@ def send_telegram_alert(job: dict, analysis: dict) -> bool:
         f"📍 *Lieu* : {location}\n"
         f"📅 *Publié le* : {date_pub}\n"
         f"🌐 *Source* : {source}\n\n"
-        f"📝 *Résumé de l'offre* :\n{analysis.get('summary', 'Analyse automatique de l\'offre.')}\n\n"
-        f"✅ *Pourquoi ça matche* :\n{analysis.get('pros', 'Excellente adéquation de profil.')}\n\n"
-        f"⚠️ *Points faibles / Vigilance* :\n{analysis.get('cons', 'Aucun point bloquant majeur.')}\n\n"
-        f"💬 *Pitch rapide (à utiliser)* :\n`{analysis.get('pitch', '')}`\n\n"
+        f"📝 *Résumé de l'offre* :\n{summary_text}\n\n"
+        f"✅ *Pourquoi ça matche* :\n{pros_text}\n\n"
+        f"⚠️ *Points faibles / Vigilance* :\n{cons_text}\n\n"
+        f"💬 *Pitch rapide (à utiliser)* :\n`{pitch_text}`\n\n"
         f"🔗 [CANDIDATER DIRECTEMENT]({job.get('url')})"
     )
 
