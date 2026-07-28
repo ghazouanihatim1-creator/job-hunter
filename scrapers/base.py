@@ -37,6 +37,6 @@ class BaseScraper:
             print(f"⚠️ Erreur HTTP dans {self.name} pour URL {url} : {e}")
             return None
 
-    def fetch_jobs((self) -> list[dict]:
+    def fetch_jobs(self) -> list[dict]:
         """Méthode à surcharger par chaque scraper spécifique."""
         raise NotImplementedError("La méthode fetch_jobs doit être implémentée.")
