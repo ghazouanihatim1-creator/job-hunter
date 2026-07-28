@@ -1,5 +1,5 @@
 """
-Classe de base abstraite et utilitaires pour l'ensemble des scrapers.
+Classe de base abstraite et filtres de qualité pour tous les scrapers.
 """
 
 import requests
@@ -8,9 +8,13 @@ import time
 
 USER_AGENTS = [
     "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-    "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36",
-    "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-    "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/121.0"
+    "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36"
+]
+
+# Mots-clés strictement interdits (Élimination automatique)
+EXCLUDED_KEYWORDS = [
+    "avocat", "juriste", "legal", "lawyer", "droit", "juridique",
+    "alternance", "apprentissage", "cdi", "cdd"  # Exclut ce qui n'est pas stage si recherche pure de stage
 ]
 
 class BaseScraper:
@@ -20,23 +24,35 @@ class BaseScraper:
     def get_headers(self) -> dict:
         return {
             "User-Agent": random.choice(USER_AGENTS),
-            "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
             "Accept-Language": "fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7",
         }
 
     def safe_get(self, url: str, params: dict = None, json_body: dict = None, timeout: int = 10) -> requests.Response:
-        """Effectue une requête HTTP sécurisée avec gestion des retards."""
         try:
-            time.sleep(random.uniform(0.5, 1.5))
+            time.sleep(random.uniform(0.5, 1.2))
             if json_body:
                 response = requests.post(url, json=json_body, headers=self.get_headers(), timeout=timeout)
             else:
                 response = requests.get(url, params=params, headers=self.get_headers(), timeout=timeout)
             return response
         except Exception as e:
-            print(f"⚠️ Erreur HTTP dans {self.name} pour URL {url} : {e}")
+            print(f"⚠️ Erreur HTTP dans {self.name} : {e}")
             return None
 
+    def is_valid_job(self, title: str, description: str) -> bool:
+        """Vérifie si l'offre respecte les filtres stricts de qualité."""
+        full_text = f"{title} {description}".lower()
+
+        # 1. Vérification des mots-clés d'exclusion (Juridique / Avocat / Alternance)
+        for keyword in EXCLUDED_KEYWORDS:
+            if keyword in full_text:
+                return False
+
+        # 2. S'assurer que le mot "stage" ou "internship" est bien présent
+        if "stage" not in full_text and "intern" not in full_text and "internship" not in full_text:
+            return False
+
+        return True
+
     def fetch_jobs(self) -> list[dict]:
-        """Méthode à surcharger par chaque scraper spécifique."""
         raise NotImplementedError("La méthode fetch_jobs doit être implémentée.")
