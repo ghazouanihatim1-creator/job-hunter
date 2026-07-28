@@ -1,5 +1,5 @@
 """
-Scraper LinkedIn via Google RSS avec filtres de qualité stricts.
+Scraper LinkedIn ultra-frais (< 7 jours).
 """
 
 from scrapers.base import BaseScraper
@@ -11,15 +11,15 @@ class LinkedInXRayScraper(BaseScraper):
         super().__init__("LinkedIn Google X-Ray")
 
     def fetch_jobs(self) -> list[dict]:
-        print(f"🔍 [{self.name}] Recherche d'offres ciblées en cours...")
+        print(f"🔍 [{self.name}] Recherche d'offres ultra-récentes (< 7 jours)...")
         jobs = []
 
-        # Mots-clés de recherche très précis
+        # 'when:7d' force Google à restreindre aux 7 derniers jours
         queries = [
-            'site:linkedin.com/jobs/view "stage" "M&A" France "2027"',
-            'site:linkedin.com/jobs/view "stage" "Transaction Services" France "2027"',
-            'site:linkedin.com/jobs/view "stage" "Corporate Finance" France "2027"',
-            'site:linkedin.com/jobs/view "stage" "FP&A" France "2027"'
+            'site:linkedin.com/jobs/view "stage" "M&A" France when:7d',
+            'site:linkedin.com/jobs/view "stage" "Transaction Services" France when:7d',
+            'site:linkedin.com/jobs/view "stage" "Corporate Finance" France when:7d',
+            'site:linkedin.com/jobs/view "stage" "FP&A" France when:7d'
         ]
 
         for query in queries:
@@ -35,19 +35,19 @@ class LinkedInXRayScraper(BaseScraper):
                         link = item.find("link").text if item.find("link") is not None else ""
                         pub_date = item.find("pubDate").text[:16] if item.find("pubDate") is not None else "Récemment"
 
-                        # Filtrage strict avant ajout
-                        if self.is_valid_job(title, f"Publication {pub_date}"):
+                        # Filtre strict : Mots-clés + Date <= 7 jours
+                        if self.is_valid_job(title, f"Publication {pub_date}", pub_date):
                             jobs.append({
                                 "title": title,
                                 "company": "Voir détails sur LinkedIn",
                                 "location": "France",
                                 "url": link,
                                 "date": pub_date,
-                                "description": f"Offre ciblée Finance : {title}",
+                                "description": f"Offre très récente (< 7 jours) : {title}",
                                 "source": "LinkedIn"
                             })
                 except Exception as e:
                     print(f"❌ Erreur parsing RSS LinkedIn : {e}")
 
-        print(f"✅ [{self.name}] {len(jobs)} offres filtrées et validées.")
+        print(f"✅ [{self.name}] {len(jobs)} offres ultra-récentes validées.")
         return jobs
