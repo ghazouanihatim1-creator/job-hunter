@@ -11,11 +11,10 @@ class LinkedInXRayScraper(BaseScraper):
     def __init__(self):
         super().__init__("LinkedIn Google X-Ray")
 
-    def fetch_jobs() -> list[dict]:
+    def fetch_jobs(self) -> list[dict]:
         print(f"🔍 [{self.name}] Recherche Google X-Ray LinkedIn en cours...")
         jobs = []
 
-        # Requêtes X-Ray ultra-ciblées sur LinkedIn Jobs
         queries = [
             'site:linkedin.com/jobs/view "stage" "M&A" OR "Transaction Services" France',
             'site:linkedin.com/jobs/view "stage" "FP&A" OR "Corporate Finance" France',
@@ -24,7 +23,6 @@ class LinkedInXRayScraper(BaseScraper):
 
         for query in queries:
             encoded_query = urllib.parse.quote(query)
-            # Utilisation de DuckDuckGo / Google HTML sans JS pour extraction propre
             search_url = f"https://html.duckduckgo.com/html/?q={encoded_query}"
             
             res = self.safe_get(search_url)
@@ -34,9 +32,7 @@ class LinkedInXRayScraper(BaseScraper):
                 
                 for r in results:
                     href = r.get("href", "")
-                    # Extraction du vrai lien LinkedIn
                     if "linkedin.com/jobs/view" in href:
-                        # Nettoyage de l'URL issue de la redirection DuckDuckGo
                         if "uddg=" in href:
                             actual_url = urllib.parse.unquote(href.split("uddg=")[1].split("&")[0])
                         else:
