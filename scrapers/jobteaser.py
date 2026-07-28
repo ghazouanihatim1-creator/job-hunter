@@ -11,7 +11,7 @@ class JobTeaserScraper(BaseScraper):
     def __init__(self):
         super().__init__("JobTeaser Public")
 
-    def fetch_jobs() -> list[dict]:
+    def fetch_jobs(self) -> list[dict]:
         print(f"🔍 [{self.name}] Recherche JobTeaser en cours...")
         jobs = []
 
