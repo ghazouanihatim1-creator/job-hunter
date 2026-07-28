@@ -1,59 +1,49 @@
 """
-Scraper LinkedIn via Google X-Ray (Recherche ciblée sans blocage ni compte).
+Scraper LinkedIn via flux RSS / Reader.
 """
 
 from scrapers.base import BaseScraper
-from bs4 import BeautifulSoup
+import xml.etree.ElementTree as ET
 import urllib.parse
-from datetime import datetime
 
 class LinkedInXRayScraper(BaseScraper):
     def __init__(self):
         super().__init__("LinkedIn Google X-Ray")
 
     def fetch_jobs(self) -> list[dict]:
-        print(f"🔍 [{self.name}] Recherche Google X-Ray LinkedIn en cours...")
+        print(f"🔍 [{self.name}] Recherche LinkedIn RSS en cours...")
         jobs = []
 
         queries = [
-            'site:linkedin.com/jobs/view "stage" "M&A" OR "Transaction Services" France',
-            'site:linkedin.com/jobs/view "stage" "FP&A" OR "Corporate Finance" France',
-            'site:linkedin.com/jobs/view "internship" "Investment Banking" Luxembourg OR Switzerland'
+            'site:linkedin.com/jobs/view "stage" "M&A" France',
+            'site:linkedin.com/jobs/view "stage" "Transaction Services" France',
+            'site:linkedin.com/jobs/view "stage" "FP&A" France'
         ]
 
         for query in queries:
-            encoded_query = urllib.parse.quote(query)
-            search_url = f"https://html.duckduckgo.com/html/?q={encoded_query}"
+            encoded = urllib.parse.quote(query)
+            rss_url = f"https://news.google.com/rss/search?q={encoded}&hl=fr&gl=FR&ceid=FR:fr"
             
-            res = self.safe_get(search_url)
+            res = self.safe_get(rss_url)
             if res and res.status_code == 200:
-                soup = BeautifulSoup(res.text, "lxml")
-                results = soup.find_all("a", class_="result__url")
-                
-                for r in results:
-                    href = r.get("href", "")
-                    if "linkedin.com/jobs/view" in href:
-                        if "uddg=" in href:
-                            actual_url = urllib.parse.unquote(href.split("uddg=")[1].split("&")[0])
-                        else:
-                            actual_url = href
-
-                        parent = r.find_parent("div", class_="result__body")
-                        title_elem = parent.find("a", class_="result__title") if parent else None
-                        snippet_elem = parent.find("a", class_="result__snippet") if parent else None
-
-                        title_text = title_elem.text.strip() if title_elem else "Offre Finance LinkedIn"
-                        snippet_text = snippet_elem.text.strip() if snippet_elem else "Détails de l'offre sur LinkedIn."
+                try:
+                    root = ET.fromstring(res.text)
+                    for item in root.findall(".//item")[:5]:
+                        title = item.find("title").text if item.find("title") is not None else "Offre LinkedIn"
+                        link = item.find("link").text if item.find("link") is not None else ""
+                        pub_date = item.find("pubDate").text[:16] if item.find("pubDate") is not None else "Récemment"
 
                         jobs.append({
-                            "title": title_text,
-                            "company": "Entreprise sur LinkedIn",
-                            "location": "France / Europe",
-                            "url": actual_url,
-                            "date": datetime.now().strftime("%Y-%m-%d"),
-                            "description": snippet_text,
+                            "title": title,
+                            "company": "Voir détails sur LinkedIn",
+                            "location": "France",
+                            "url": link,
+                            "date": pub_date,
+                            "description": f"Opportunité détectée : {title}",
                             "source": "LinkedIn (Google X-Ray)"
                         })
+                except Exception as e:
+                    print(f"❌ Erreur RSS LinkedIn : {e}")
 
         print(f"✅ [{self.name}] {len(jobs)} offres extraites.")
         return jobs
