@@ -34,21 +34,26 @@ CANDIDATE_PROFILE = {
     "availability": "Recherche prioritaire : Début Janvier (ou Février / Mars maximum)."
 }
 
-def get_candidate_summary_text():
+def get_candidate_summary_text() -> str:
     """Convertit le profil structuré en un bloc texte optimisé pour le prompt LLM."""
+    exp_str = "\n- ".join(CANDIDATE_PROFILE["experience_summary"])
+    skills_str = "\n- ".join(CANDIDATE_PROFILE["technical_skills"])
+    majors_str = ", ".join(CANDIDATE_PROFILE["education"]["majors"])
+    courses_str = ", ".join(CANDIDATE_PROFILE["education"]["key_courses"])
+
     return f"""
-🎯 Objectif : {CANDIDATE_PROFILE['target_role']}
+Objectif : {CANDIDATE_PROFILE['target_role']}
 Trajectoire visée : {CANDIDATE_PROFILE['career_path']}
 
-🎓 Formation : {CANDIDATE_PROFILE['education']['level']} ({', '.join(CANDIDATE_PROFILE['education']['majors'])})
-Cours clés : {', '.join(CANDIDATE_PROFILE['education']['key_courses'])}
+Formation : {CANDIDATE_PROFILE['education']['level']} ({majors_str})
+Cours clés : {courses_str}
 
-💼 Expériences :
-- " + "\n- ".join(CANDIDATE_PROFILE['experience_summary']) + f"""
+Expériences :
+- {exp_str}
 
-🛠 Compétences Techniques :
-- " + "\n- ".join(CANDIDATE_PROFILE['technical_skills']) + f"""
+Compétences Techniques :
+- {skills_str}
 
-🗣 Langues : Français ({CANDIDATE_PROFILE['languages']['french']}) | Anglais ({CANDIDATE_PROFILE['languages']['english']})
-📅 Disponibilité : {CANDIDATE_PROFILE['availability']}
+Langues : Français ({CANDIDATE_PROFILE['languages']['french']}) | Anglais ({CANDIDATE_PROFILE['languages']['english']})
+Disponibilité : {CANDIDATE_PROFILE['availability']}
 """
