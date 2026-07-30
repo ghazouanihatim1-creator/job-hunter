@@ -1,0 +1,36 @@
+name: Enrichissement Watchlist
+
+on:
+  workflow_dispatch:          # lancement manuel (Actions -> Run workflow)
+  schedule:
+    - cron: '0 4 */3 * *'     # tous les 3 jours à 04h00 UTC
+
+permissions:
+  contents: write
+
+jobs:
+  enrich:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 📥 Récupération du code
+        uses: actions/checkout@v4
+
+      - name: 🐍 Configuration de Python 3.10
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+
+      - name: 📦 Installation des dépendances
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: 🔎 Détection des ATS
+        run: python enrich_companies.py
+
+      - name: 💾 Sauvegarde de companies.csv enrichi
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "enrich: détection ATS des entreprises [skip ci]"
+          file_pattern: "companies.csv"
