@@ -1,0 +1,22 @@
+name: Resolveur ATS
+on:
+  schedule:
+    - cron: '0 4 * * 1'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  resolve-ats:
+    runs-on: ubuntu-latest
+    timeout-minutes: 350
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: pip install -r requirements.txt
+      - run: python tools/resolve_ats.py
+      - uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "update: ATS detectes [skip ci]"
+          file_pattern: "companies.csv"
