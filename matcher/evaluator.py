@@ -1,72 +1,120 @@
 """
-Moteur d'évaluation IA (Groq / Llama-3.3-70b) + boost selon le tier de l'entreprise.
+Scoring par regles, 100% local (sans IA, sans cle API).
+Renvoie un dict compatible avec utils/telegram.py.
 """
+from datetime import datetime, timezone
+from config.settings import (
+    TARGET_KEYWORDS, EXCLUDED_KEYWORDS, ACCEPTED_LOCATIONS,
+    ALLOWED_MAROC_COMPANIES, MAROC_TOP_TIER_ONLY,
+    START_MONTH_PENALTIES, MIN_SCORE_THRESHOLD,
+)
 
-import os
-import json
-from groq import Groq
-from config.resume import get_candidate_summary_text
-
-GROQ_API_KEY = os.getenv("GROQ_API_KEY")
-MODEL = "llama-3.3-70b-versatile"
-
-# Bonus de score selon le prestige de l'entreprise (issu de la watchlist)
-TIER_BOOST = {"Élite": 12, "Cible": 6, "Autre": 2, "Découverte": 3}
+# Mots-cles a fort signal (coeur de cible d'Hatim)
+STRONG = {
+    "m&a", "mergers and acquisitions", "transaction services",
+    "financial due diligence", "valuation", "evaluations", "corporate finance",
+    "private equity", "deal advisory", "investment banking", "lbo", "restructuring",
+}
 
 
-def evaluate_job_with_ai(job: dict) -> dict:
-    if not GROQ_API_KEY:
-        return {"match_score": 0, "summary": "Clé API manquante", "pros": "", "cons": "", "pitch": ""}
+def _text(job):
+    return f"{job.get('title', '')} {job.get('description', '')}".lower()
 
-    client = Groq(api_key=GROQ_API_KEY)
-    candidate_profile = get_candidate_summary_text()
 
-    prompt = f"""
-Tu es un Chasseur de Têtes Senior spécialisé en Finance d'Entreprise (M&A, TS, FP&A, Corporate Finance).
-Évalue l'adéquation exacte entre l'offre d'emploi suivante et le profil du candidat.
+def _is_stage(t):
+    return any(k in t for k in ("stage", "stagiaire", "intern", "internship", "pfe"))
 
---- PROFIL DU CANDIDAT ---
-{candidate_profile}
 
---- OFFRE D'EMPLOI À ÉVALUER ---
-Titre : {job.get('title')}
-Entreprise : {job.get('company')}
-Description : {job.get('description')}
-Date publication / Détails : {job.get('date')}
+def _location_ok(job):
+    loc = (job.get("location", "") or "").lower()
+    if not loc:
+        return True  # localisation inconnue -> on garde par precaution
+    if any(a in loc for a in ACCEPTED_LOCATIONS):
+        return True
+    if any(m in loc for m in ("maroc", "morocco", "casablanca", "rabat")):
+        if MAROC_TOP_TIER_ONLY:
+            comp = (job.get("company", "") or "").lower()
+            return any(m in comp for m in ALLOWED_MAROC_COMPANIES)
+        return True
+    return False
 
---- RÈGLES D'ÉVALUATION STRICTES ---
-1. Si l'offre requiert un diplôme en DROIT, un profil JURIDIQUE ou AVOCAT -> score 0.
-2. Si le démarrage est incompatible avec les disponibilités (le candidat vise janvier 2027,
-   ok février/mars) -> réduis le score de 30 points.
-3. Rédige un JSON strict sans texte autour avec les clés :
-   - "match_score": entier 0-100
-   - "summary": résumé de l'offre en 2 phrases
-   - "pros": 2 points forts majeurs
-   - "cons": points de vigilance
-   - "pitch": accroche percutante en 2-3 phrases pour le recruteur
 
-Retourne UNIQUEMENT le JSON.
-"""
-
+def _freshness_days(job):
+    v = job.get("published_at")
+    if not v:
+        return None
     try:
-        response = client.chat.completions.create(
-            messages=[{"role": "user", "content": prompt}],
-            model=MODEL,
-            response_format={"type": "json_object"},
-        )
-        return json.loads(response.choices[0].message.content)
-    except Exception as e:
-        print(f"❌ Erreur évaluation Groq : {e}")
-        return {"match_score": 0, "summary": "Erreur d'analyse", "pros": "", "cons": "", "pitch": ""}
+        if isinstance(v, (int, float)) or (isinstance(v, str) and v.isdigit()):
+            ts = float(v)
+            if ts > 1e12:
+                ts /= 1000.0
+            dt = datetime.fromtimestamp(ts, tz=timezone.utc)
+        else:
+            s = str(v).replace("Z", "+00:00")
+            dt = datetime.fromisoformat(s)
+            if dt.tzinfo is None:
+                dt = dt.replace(tzinfo=timezone.utc)
+        return (datetime.now(timezone.utc) - dt).days
+    except Exception:
+        return None
 
 
-def apply_tier_boost(analysis: dict, tier: str | None) -> dict:
-    """Ajoute un bonus de score selon le tier de l'entreprise (plafonné à 100)."""
-    if not tier:
-        return analysis
-    boost = TIER_BOOST.get(tier, 0)
-    base = analysis.get("match_score", 0) or 0
-    if base > 0:  # ne booste pas une offre disqualifiée (score 0)
-        analysis["match_score"] = min(100, base + boost)
-        analysis["tier"] = tier
-    return analysis
+def evaluate_job(job):
+    t = _text(job)
+
+    # --- Rejets durs ---
+    if not _is_stage(t):
+        return {"match_score": 0, "rejected": True, "reason": "Pas un stage"}
+    for k in EXCLUDED_KEYWORDS:
+        if k in t:
+            return {"match_score": 0, "rejected": True, "reason": f"Exclu ({k})"}
+    if not _location_ok(job):
+        return {"match_score": 0, "rejected": True, "reason": "Hors zone geographique"}
+
+    # --- Fraicheur : au-dela de 7 jours = rejete ---
+    days = _freshness_days(job)
+    if days is not None and days > 7:
+        return {"match_score": 0, "rejected": True, "reason": f"Offre trop ancienne ({days} j)"}
+
+    # --- Score par mots-cles ---
+    title = (job.get("title", "") or "").lower()
+    desc = (job.get("description", "") or "").lower()
+    score = 0
+    matched = []
+    for kw in TARGET_KEYWORDS:
+        if kw in title:
+            score += 50 if kw in STRONG else 28
+            matched.append(kw)
+        elif kw in desc:
+            score += 14 if kw in STRONG else 7
+            matched.append(kw)
+    if not matched:
+        return {"match_score": 0, "rejected": True, "reason": "Aucun mot-cle finance"}
+
+    # --- Penalite selon le mois de demarrage detecte (le pire) ---
+    penalties = [p for m, p in START_MONTH_PENALTIES.items() if m in t]
+    mult = min(penalties) if penalties else 1.0
+
+    # --- Bonus fraicheur ---
+    boost = 0
+    if days is not None:
+        if days <= 0:
+            boost = 12   # publie aujourd'hui
+        elif days <= 1:
+            boost = 6
+
+    score = int(min(100, round(score * mult + boost)))
+    matched = list(dict.fromkeys(matched))[:6]
+    today = (days is not None and days <= 0)
+
+    return {
+        "match_score": score,
+        "rejected": score < MIN_SCORE_THRESHOLD,
+        "reason": "Score sous le seuil" if score < MIN_SCORE_THRESHOLD else "",
+        "matched_terms": matched,
+        "summary": ("Offre PUBLIEE AUJOURD'HUI, " if today else "Offre ") +
+                   f"detectee directement sur le site de l'entreprise (source : {job.get('source', '')}).",
+        "pros": "Correspond a ton profil sur : " + ", ".join(matched) + ".",
+        "cons": "A verifier dans l'annonce : date de debut exacte et prerequis.",
+        "pitch": "",
+    }

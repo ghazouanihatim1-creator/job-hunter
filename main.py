@@ -1,107 +1,73 @@
 """
-Orchestrateur du Job Hunter.
-
-Séquence :
-  1. Charge la watchlist (companies.csv) + la mémoire anti-doublon.
-  2. Lance les scrapers (ATS boards + agrégateurs) de façon résiliente.
-  3. Déduplique, puis pour chaque offre nouvelle :
-       - AUTO-DÉCOUVERTE : ajoute la boîte à la watchlist si finance et inconnue.
-       - Scoring IA (Groq) + boost selon le tier de l'entreprise.
-  4. Envoie UN digest Telegram groupé (offres >= seuil), trié par score.
-  5. Sauvegarde mémoire + watchlist (companies.csv committé par GitHub Actions).
-  6. En cas de plantage global : alerte technique Telegram.
+Orchestrateur - Job Hunter (sources ATS directes, sans agregateurs, sans IA payante).
+Sequence : companies.csv -> collecteurs ATS -> filtres/scoring local -> anti-doublon -> Telegram.
 """
+import csv
+from collectors.greenhouse import GreenhouseCollector
+from collectors.lever import LeverCollector
+from collectors.smartrecruiters import SmartRecruitersCollector
+from matcher.evaluator import evaluate_job
+from utils.deduplicator import load_state, save_state, was_notified, record_seen, mark_notified
+from utils.telegram import send_telegram_alert
+from config.settings import MIN_SCORE_THRESHOLD, MAX_ALERTS_PER_RUN
 
-import traceback
+COLLECTORS = [GreenhouseCollector, LeverCollector, SmartRecruitersCollector]
 
-from config.settings import MIN_SCORE_THRESHOLD, ENABLE_DISCOVERY
-from utils.deduplicator import load_seen_jobs, save_seen_jobs, is_already_seen, mark_as_seen
-from utils.telegram import send_digest, send_error_alert
-from utils.companies import get_registry
-from matcher.evaluator import evaluate_job_with_ai, apply_tier_boost
 
-from scrapers.company_boards import CompanyBoardsScraper
-from scrapers.wttj import WTTJScraper
-from scrapers.linkedin_xray import LinkedInXRayScraper
-from scrapers.jobteaser import JobTeaserScraper
+def load_companies(path="companies.csv"):
+    with open(path, "r", encoding="utf-8") as f:
+        return list(csv.DictReader(f))
 
 
 def run_pipeline():
-    print("🚀 === DÉMARRAGE DU JOB HUNTER ===")
+    print("=== DEMARRAGE JOB HUNTER (sources ATS) ===")
+    companies = load_companies()
+    state = load_state()
+    print(f"Entreprises chargees : {len(companies)} | memoire : {len(state)} offres")
 
-    registry = get_registry()
-    seen_jobs = load_seen_jobs()
-    print(f"📦 Mémoire : {len(seen_jobs)} offres déjà traitées.")
-
-    scrapers = [
-        CompanyBoardsScraper(),   # filet 1 : boards ATS de tes cibles
-        WTTJScraper(),            # filet 3 : agrégateurs
-        LinkedInXRayScraper(),
-        JobTeaserScraper(),
-    ]
-
-    all_raw_jobs = []
-    for scraper in scrapers:
-        try:
-            all_raw_jobs.extend(scraper.fetch_jobs())
-        except Exception as e:
-            print(f"❌ Scraper {scraper.name} en échec : {e}")
-
-    print(f"\n📊 Total brut : {len(all_raw_jobs)} offres.")
-
-    # Déduplication
-    new_jobs = []
-    for job in all_raw_jobs:
-        url = job.get("url")
-        if not url or is_already_seen(url, seen_jobs):
+    all_offers = []
+    for Collector in COLLECTORS:
+        subset = [c for c in companies
+                  if (c.get("ats_type", "") or "").strip().lower() == Collector.ats_type]
+        if not subset:
             continue
-        new_jobs.append(job)
-    print(f"✨ Nouvelles offres à évaluer : {len(new_jobs)}\n")
+        try:
+            print(f"-> {Collector.ats_type} : {len(subset)} entreprises...")
+            all_offers.extend(Collector(subset).fetch())
+        except Exception as e:
+            print(f"Collecteur {Collector.ats_type} KO : {e}")
 
-    results = []
-    discoveries = 0
+    print(f"Offres brutes recuperees : {len(all_offers)}")
 
-    for idx, job in enumerate(new_jobs, start=1):
-        company = job.get("company", "")
-        title = job.get("title", "")
-        print(f"[{idx}/{len(new_jobs)}] {title} — {company} ({job.get('source')})")
-        mark_as_seen(job.get("url"), seen_jobs)
+    to_send = []
+    for job in all_offers:
+        oid = job.get("offer_id")
+        if not oid or was_notified(oid, state):
+            continue
+        record_seen(job, state)
+        analysis = evaluate_job(job)
+        if analysis.get("rejected"):
+            continue
+        if analysis.get("match_score", 0) >= MIN_SCORE_THRESHOLD:
+            job["_score"] = analysis["match_score"]
+            to_send.append((job, analysis))
 
-        # Tier de l'entreprise (si déjà ciblée)
-        tier = registry.tier_of(company)
+    # Tri : meilleur matching d'abord (les offres du jour ont un bonus -> remontent)
+    to_send.sort(key=lambda x: x[0]["_score"], reverse=True)
+    print(f"Offres pertinentes a notifier : {len(to_send)}")
 
-        # Auto-découverte : nouvelle boîte finance inconnue -> watchlist
-        if ENABLE_DISCOVERY and not tier and registry.discover(company):
-            discoveries += 1
-            tier = "Découverte"
+    sent = 0
+    for job, analysis in to_send:
+        if sent >= MAX_ALERTS_PER_RUN:
+            print(f"Plafond {MAX_ALERTS_PER_RUN} atteint, le reste partira au prochain run.")
+            break
+        if send_telegram_alert(job, analysis):
+            mark_notified(job["offer_id"], state)  # marque APRES envoi reussi
+            sent += 1
 
-        # Scoring IA + boost tier
-        analysis = evaluate_job_with_ai(job)
-        analysis = apply_tier_boost(analysis, tier)
-        score = analysis.get("match_score", 0)
-        print(f"   -> Score : {score}%" + (f" (tier {tier})" if tier else ""))
-
-        if score >= MIN_SCORE_THRESHOLD and not analysis.get("rejected", False):
-            results.append((job, analysis))
-
-    # Digest groupé
-    sent = send_digest(results)
-
-    # Sauvegardes
-    save_seen_jobs(seen_jobs)
-    if discoveries:
-        registry.save()
-        print(f"🌱 {discoveries} nouvelle(s) entreprise(s) ajoutée(s) à la watchlist.")
-
-    print(f"\n✅ === FIN DU RUN : {sent} offre(s) envoyée(s), "
-          f"{discoveries} découverte(s) ===")
+    save_state(state)
+    print(f"=== FIN : {sent} alerte(s) envoyee(s) ===")
 
 
 if __name__ == "__main__":
-    try:
-        run_pipeline()
-    except Exception as e:
-        print(f"💥 Plantage global : {e}")
-        traceback.print_exc()
-        send_error_alert("run_pipeline", str(e))
-        raise
+    run_pipeline()

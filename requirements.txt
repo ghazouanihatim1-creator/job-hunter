@@ -1,5 +1,1 @@
 requests
-groq
-beautifulsoup4
-lxml
-urllib3
