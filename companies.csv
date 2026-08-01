@@ -62,7 +62,7 @@ Advent International,Fonds PE / Infra large cap,,,,,normale,Candidatures spontan
 Advisio Corporate Finance,Boutique Corporate Finance / M&A,,,,,normale,Candidatures spontanées.xlsx,active
 Adviso Partners,Boutique M&A mid-market,,,,,normale,Candidatures spontanées.xlsx;Tracker_Candidatures_Corporate_Finance.xlsx,active
 Advolis Orfis (TS/éval.),Transaction Services,,,,,normale,Tracker_Candidatures_Corporate_Finance.xlsx,active
-AEC Partners,Conseil stratégie / management,,,,,normale,Candidatures spontanées.xlsx,active
+AEC Partners,Conseil stratégie / management,,,greenhouse,aec,normale,Candidatures spontanées.xlsx,active
 Aelios Finance,Boutique M&A mid-market,,,,,normale,Candidatures spontanées.xlsx,active
 Aelys / Sycomore CF,M&A,,,,,normale,Tracker_Candidatures_Corporate_Finance.xlsx,active
 Aertus Finance,Boutique Corporate Finance / M&A,,,,,normale,Candidatures spontanées.xlsx,active
@@ -77,8 +77,8 @@ AG2R La Mondiale,Assurance,,,,,normale,Tracker_Candidatures_Corporate_Finance.xl
 Agence Butler,À confirmer,,,,,normale,Tracker_Candidatures_Corporate_Finance.xlsx,active
 Agora Finance,Boutique Corporate Finance / M&A,,,,,normale,Candidatures spontanées.xlsx,active
 Ailancy,Conseil stratégie / management,,,,,normale,Candidatures spontanées.xlsx,active
-Air Liquide,Industrie,,,,,normale,Tracker_Candidatures_Corporate_Finance.xlsx,active
-Air Liquide Venture Capital,Corporate Venture / Corp Dev,,,,,normale,Candidatures spontanées.xlsx,active
+Air Liquide,Industrie,,,greenhouse,air,normale,Tracker_Candidatures_Corporate_Finance.xlsx,active
+Air Liquide Venture Capital,Corporate Venture / Corp Dev,,,greenhouse,air,normale,Candidatures spontanées.xlsx,active
 AIX Investment Group,Fonds PE / VC (mid),,,,,normale,Candidatures spontanées.xlsx,active
 Akane Patrimoine,Gestion de patrimoine,,,,,normale,Tracker_Candidatures_Corporate_Finance.xlsx,active
 Akka Venture,Corporate Venture / Corp Dev,,,,,normale,Candidatures spontanées.xlsx,active
@@ -89,7 +89,7 @@ Alantra France,M&A,,,,,normale,Tracker_Candidatures_Corporate_Finance.xlsx,activ
 Alcé Equity Advisory,Advisory / TS / Valuation (grand),,,,,normale,Candidatures spontanées.xlsx,active
 Alexander Partners,Boutique M&A mid-market,,,,,normale,Candidatures spontanées.xlsx,active
 ALIENOR CAPITAL,Family office / Holding / AM,,,,,normale,Candidatures spontanées.xlsx,active
-AlixPartners,Advisory / TS / Valuation (grand),,,,,normale,Candidatures spontanées.xlsx,active
+AlixPartners,Advisory / TS / Valuation (grand),,,greenhouse,alixpartners,normale,Candidatures spontanées.xlsx,active
 Allenor Capital,Fonds PE / VC (mid),,,,,normale,Candidatures spontanées.xlsx,active
 Alliance Entreprendre,Fonds PE / VC (mid),,,,,normale,Candidatures spontanées.xlsx,active
 Allianz,Assurance,,,,,normale,Tracker_Candidatures_Corporate_Finance.xlsx,active
@@ -106,7 +106,7 @@ Alter Equity,Fonds PE / VC (mid),,,,,normale,Candidatures spontanées.xlsx,activ
 Altios,Conseil / International,,,,,normale,Tracker_Candidatures_Corporate_Finance.xlsx,active
 Alto Invest,Fonds PE / VC (mid),,,,,normale,Candidatures spontanées.xlsx,active
 AltRaise,Conseil stratégie / management,,,,,normale,Candidatures spontanées.xlsx,active
-Altrix Finance,Boutique Corporate Finance / M&A,,,,,normale,Candidatures spontanées.xlsx,active
+Altrix Finance,Boutique Corporate Finance / M&A,,,smartrecruiters,altrix,normale,Candidatures spontanées.xlsx,active
 Altur Investissement,Fonds PE / VC (mid),,,,,normale,Candidatures spontanées.xlsx,active
 Alvarez & Marsal,Advisory / TS / Valuation (grand),,,,,normale,Candidatures spontanées.xlsx;Tracker_Candidatures_Corporate_Finance.xlsx,active
 Alven,Fonds PE / VC (mid),,,,,normale,Candidatures spontanées.xlsx,active
@@ -168,7 +168,7 @@ Astris Finance,Debt Advisory,,,,,normale,Candidatures spontanées.xlsx,active
 "Astris Finance, LLC",Debt Advisory,,,,,normale,Candidatures spontanées.xlsx,active
 Atena Finances,Boutique Corporate Finance / M&A,,,,,normale,Candidatures spontanées.xlsx,active
 ATFIS,Fonds PE / VC (mid),,,,,normale,Candidatures spontanées.xlsx,active
-Athos Partners,Fonds PE / VC (mid),,,,,normale,Candidatures spontanées.xlsx,active
+Athos Partners,Fonds PE / VC (mid),,,smartrecruiters,athos,normale,Candidatures spontanées.xlsx,active
 Atomico,VC international (top),,,,,normale,Candidatures spontanées.xlsx,active
 Atomico France,VC international (top),,,,,normale,Candidatures spontanées.xlsx,active
 Atout Capital,Boutique Corporate Finance / M&A,,,,,normale,Candidatures spontanées.xlsx;Tracker_Candidatures_Corporate_Finance.xlsx,active
@@ -241,10 +241,10 @@ Becouze,Fonds PE / VC (mid),,,,,normale,Candidatures spontanées.xlsx,active
 BEE Family Office,Family office / Holding / AM,,,,,normale,Candidatures spontanées.xlsx,active
 Bee Up Capital,Fonds PE / VC (mid),,,,,normale,Candidatures spontanées.xlsx,active
 Belfius Private,Family office / Holding / AM,,,,,normale,Candidatures spontanées.xlsx,active
-Believe,Industrie (Musique/Média),,,,,normale,Tracker_Candidatures_Corporate_Finance.xlsx,active
+Believe,Industrie (Musique/Média),,,smartrecruiters,believe,normale,Tracker_Candidatures_Corporate_Finance.xlsx,active
 Benoit & Associés,Audit / Expertise (+ CF),,,,,normale,Candidatures spontanées.xlsx,active
 Berenberg,Banque d'investissement (BB/CIB),,,,,normale,Candidatures spontanées.xlsx,active
-Bessemer Venture Partners,VC international (top),,,,,normale,Candidatures spontanées.xlsx,active
+Bessemer Venture Partners,VC international (top),,,greenhouse,bessemerventurepartners,normale,Candidatures spontanées.xlsx,active
 BEX Capital,Fonds PE / VC (mid),,,,,normale,Candidatures spontanées.xlsx,active
 BFG CAPITAL,Fonds PE / VC (mid),,,,,normale,Candidatures spontanées.xlsx,active
 Bionest Partners Finance,Boutique M&A mid-market,,,,,normale,Candidatures spontanées.xlsx,active
@@ -257,9 +257,9 @@ Blackstone Credit,Debt Advisory,,,,,normale,Candidatures spontanées.xlsx,active
 Blackstone Private Equity,Fonds PE / Infra large cap,,,,,normale,Candidatures spontanées.xlsx,active
 Blackwell Family Office,Family office / Holding / AM,,,,,normale,Candidatures spontanées.xlsx,active
 Blanche Capital,Fonds PE / VC (mid),,,,,normale,Candidatures spontanées.xlsx,active
-Blue Cell Consulting,Conseil stratégie / management,,,,,normale,Candidatures spontanées.xlsx,active
-Blue Partners,Boutique Corporate Finance / M&A,,,,,normale,Candidatures spontanées.xlsx,active
-Blue Partners (Baker Tilly),Audit / Expertise (+ CF),,,,,normale,Candidatures spontanées.xlsx;Tracker_Candidatures_Corporate_Finance.xlsx,active
+Blue Cell Consulting,Conseil stratégie / management,,,lever,blue,normale,Candidatures spontanées.xlsx,active
+Blue Partners,Boutique Corporate Finance / M&A,,,lever,blue,normale,Candidatures spontanées.xlsx,active
+Blue Partners (Baker Tilly),Audit / Expertise (+ CF),,,lever,blue,normale,Candidatures spontanées.xlsx;Tracker_Candidatures_Corporate_Finance.xlsx,active
 BlueBay Asset Management,Fonds PE / Infra large cap,,,,,normale,Candidatures spontanées.xlsx,active
 Bluemont Consulting GmbH,Conseil stratégie / management,,,,,normale,Candidatures spontanées.xlsx,active
 Blueprint Partners,Fonds PE / VC (mid),,,,,normale,Candidatures spontanées.xlsx,active
@@ -298,7 +298,7 @@ Brugmann Conseil,Conseil stratégie / management,,,,,normale,Candidatures sponta
 Bryan Garnier,Boutique M&A élite,,,,,normale,Candidatures spontanées.xlsx;Tracker_Candidatures_Corporate_Finance.xlsx,active
 Bryan Garnier Securities,Boutique M&A élite,,,,,normale,Candidatures spontanées.xlsx,active
 BTEE Consulting,Corporate Finance,,,,,normale,Tracker_Candidatures_Corporate_Finance.xlsx,active
-BTG Pactual Chile,Banque d'investissement (BB/CIB),,,,,normale,Candidatures spontanées.xlsx,active
+BTG Pactual Chile,Banque d'investissement (BB/CIB),,,greenhouse,btgpactualchile,normale,Candidatures spontanées.xlsx,active
 Bucéphale Finance,Boutique Corporate Finance / M&A,,,,,normale,Candidatures spontanées.xlsx;Tracker_Candidatures_Corporate_Finance.xlsx,active
 Butler Capital Partners,Fonds PE / VC (mid),,,,,normale,Candidatures spontanées.xlsx,active
 BV CAPITAL AFRICA,Fonds PE / VC (mid),,,,,normale,Candidatures spontanées.xlsx,active
@@ -315,7 +315,7 @@ Caisse des Dépôts,Family office / Holding / AM,,,,,normale,Candidatures sponta
 CAL&F,Banque,,,,,normale,Tracker_Candidatures_Corporate_Finance.xlsx,active
 Calao Finance,Boutique Corporate Finance / M&A,,,,,normale,Candidatures spontanées.xlsx,active
 Calcium Capital,Fonds PE / VC (mid),,,,,normale,Candidatures spontanées.xlsx,active
-Calyptus / conseil financement,Corporate Finance,,,,,normale,Tracker_Candidatures_Corporate_Finance.xlsx,active
+Calyptus / conseil financement,Corporate Finance,,,lever,calyptus,normale,Tracker_Candidatures_Corporate_Finance.xlsx,active
 Cambon Partners,Boutique M&A élite,,,,,normale,Candidatures spontanées.xlsx;Tracker_Candidatures_Corporate_Finance.xlsx,active
 Cambon Partners (digital),M&A,,,,,normale,Tracker_Candidatures_Corporate_Finance.xlsx,active
 Camerone Capital,Fonds PE / VC (mid),,,,,normale,Candidatures spontanées.xlsx,active
@@ -327,9 +327,9 @@ Capagro,Fonds PE / VC (mid),,,,,normale,Candidatures spontanées.xlsx,active
 CapDécisif Management,Fonds PE / VC (mid),,,,,normale,Candidatures spontanées.xlsx,active
 Capelia,Fonds PE / VC (mid),,,,,normale,Candidatures spontanées.xlsx,active
 Caphorn Invest,Fonds PE / VC (mid),,,,,normale,Candidatures spontanées.xlsx,active
-Capital Croissance,Fonds PE / VC (mid),,,,,normale,Candidatures spontanées.xlsx,active
-Capital Export,Fonds PE / VC (mid),,,,,normale,Candidatures spontanées.xlsx,active
-Capital Grand Est,Fonds PE / VC (mid),,,,,normale,Candidatures spontanées.xlsx,active
+Capital Croissance,Fonds PE / VC (mid),,,lever,capital,normale,Candidatures spontanées.xlsx,active
+Capital Export,Fonds PE / VC (mid),,,lever,capital,normale,Candidatures spontanées.xlsx,active
+Capital Grand Est,Fonds PE / VC (mid),,,lever,capital,normale,Candidatures spontanées.xlsx,active
 Capitalmind,M&A,,,,,normale,Tracker_Candidatures_Corporate_Finance.xlsx,active
 Capitem Partenaires,Fonds PE / VC (mid),,,,,normale,Candidatures spontanées.xlsx,active
 CapitexAI,Corporate Finance,,,,,normale,Tracker_Candidatures_Corporate_Finance.xlsx,active
@@ -337,8 +337,8 @@ Capival,Boutique Corporate Finance / M&A,,,,,normale,Candidatures spontanées.xl
 Capstone Finance,Boutique Corporate Finance / M&A,,,,,normale,Candidatures spontanées.xlsx;Tracker_Candidatures_Corporate_Finance.xlsx,active
 Capula Investment Management LLP,Family office / Holding / AM,,,,,normale,Candidatures spontanées.xlsx,active
 CapVest,Fonds PE / Infra large cap,,,,,normale,Candidatures spontanées.xlsx;Tracker_Candidatures_Corporate_Finance.xlsx,active
-CAPZA,Fonds PE / Infra large cap,,,,,normale,Candidatures spontanées.xlsx;Tracker_Candidatures_Corporate_Finance.xlsx,active
-Capza Debt,Debt Advisory,,,,,normale,Candidatures spontanées.xlsx,active
+CAPZA,Fonds PE / Infra large cap,,,smartrecruiters,capza,normale,Candidatures spontanées.xlsx;Tracker_Candidatures_Corporate_Finance.xlsx,active
+Capza Debt,Debt Advisory,,,smartrecruiters,capza,normale,Candidatures spontanées.xlsx,active
 Carlyle,Fonds PE / Infra large cap,,,,,normale,Candidatures spontanées.xlsx,active
 Carlyle France,Fonds PE / Infra large cap,,,,,normale,Candidatures spontanées.xlsx,active
 Carmignac,Family office / Holding / AM,,,,,normale,Candidatures spontanées.xlsx,active
@@ -367,10 +367,10 @@ Charterhouse Capital Partners,Fonds PE / Infra large cap,,,,,normale,Candidature
 Chausson Finance,Boutique Corporate Finance / M&A,,,,,normale,Candidatures spontanées.xlsx,active
 Chevrillon & Associés,Boutique M&A mid-market,,,,,normale,Candidatures spontanées.xlsx,active
 China Securities International Finance Holding Company Limited,Banque d'investissement (BB/CIB),,,,,normale,Candidatures spontanées.xlsx,active
-Choose,Application mobile/Retail,,,,,normale,Tracker_Candidatures_Corporate_Finance.xlsx,active
+Choose,Application mobile/Retail,,,lever,choose,normale,Tracker_Candidatures_Corporate_Finance.xlsx,active
 CIBC Capital Markets,Banque d'investissement (BB/CIB),,,,,normale,Candidatures spontanées.xlsx,active
-CIC CIB Research,Banque d'investissement (BB/CIB),,,,,normale,Candidatures spontanées.xlsx,active
-CIC Conseil,Boutique M&A mid-market,,,,,normale,Candidatures spontanées.xlsx;Tracker_Candidatures_Corporate_Finance.xlsx,active
+CIC CIB Research,Banque d'investissement (BB/CIB),,,lever,cic,normale,Candidatures spontanées.xlsx,active
+CIC Conseil,Boutique M&A mid-market,,,lever,cic,normale,Candidatures spontanées.xlsx;Tracker_Candidatures_Corporate_Finance.xlsx,active
 Ciclad,Fonds PE / Infra large cap,,,,,normale,Candidatures spontanées.xlsx;Tracker_Candidatures_Corporate_Finance.xlsx,active
 Cinven,Fonds PE / Infra large cap,,,,,normale,Candidatures spontanées.xlsx,active
 Cinven France,Fonds PE / Infra large cap,,,,,normale,Candidatures spontanées.xlsx,active
@@ -392,13 +392,13 @@ Clearwater International France,M&A,,,,,normale,Tracker_Candidatures_Corporate_F
 Climb,Autre,,,,,normale,Tracker_Candidatures_Corporate_Finance.xlsx,active
 Clipperton,Boutique M&A élite,,,,,normale,Candidatures spontanées.xlsx;Tracker_Candidatures_Corporate_Finance.xlsx,active
 CM International,Conseil stratégie / management,,,,,normale,Candidatures spontanées.xlsx,active
-CMA CGM Ventures,Corporate Venture / Corp Dev,,,,,normale,Candidatures spontanées.xlsx,active
+CMA CGM Ventures,Corporate Venture / Corp Dev,,,greenhouse,cma,normale,Candidatures spontanées.xlsx,active
 CMB Monaco,Family office / Holding / AM,,,,,normale,Candidatures spontanées.xlsx,active
 CNP Assurances,Assurance / Private Assets,,,,,normale,Tracker_Candidatures_Corporate_Finance.xlsx,active
 Coatue Management,VC international (top),,,,,normale,Candidatures spontanées.xlsx,active
 Cobalt Capital,Fonds PE / VC (mid),,,,,normale,Candidatures spontanées.xlsx,active
 Cobepa,Fonds PE / VC (mid),,,,,normale,Candidatures spontanées.xlsx,active
-Coface,Assurance-crédit,,,,,normale,Tracker_Candidatures_Corporate_Finance.xlsx,active
+Coface,Assurance-crédit,,,smartrecruiters,coface,normale,Tracker_Candidatures_Corporate_Finance.xlsx,active
 Cofigex,Boutique Corporate Finance / M&A,,,,,normale,Candidatures spontanées.xlsx,active
 Cofiloisirs,Fonds PE / VC (mid),,,,,normale,Candidatures spontanées.xlsx,active
 Cogep,Fonds PE / VC (mid),,,,,normale,Candidatures spontanées.xlsx,active
@@ -476,10 +476,10 @@ Deomenos,Fonds PE / VC (mid),,,,,normale,Candidatures spontanées.xlsx,active
 Deutsche Bank,Banque d'investissement (BB/CIB),,,,,normale,Candidatures spontanées.xlsx;Tracker_Candidatures_Corporate_Finance.xlsx,active
 Deva Capital,Fonds PE / VC (mid),,,,,normale,Candidatures spontanées.xlsx,active
 DIF Capital Partners,Fonds PE / Infra large cap,,,,,normale,Candidatures spontanées.xlsx,active
-DigitalBridge,Fonds PE / Infra large cap,,,,,normale,Candidatures spontanées.xlsx,active
+DigitalBridge,Fonds PE / Infra large cap,,,greenhouse,digitalbridge,normale,Candidatures spontanées.xlsx,active
 DNCA Finance,Family office / Holding / AM,,,,,normale,Candidatures spontanées.xlsx,active
 Drake Star,Boutique M&A élite,,,,,normale,Candidatures spontanées.xlsx,active
-DSA International,Conseil stratégie / management,,,,,normale,Candidatures spontanées.xlsx,active
+DSA International,Conseil stratégie / management,,,smartrecruiters,dsainternational,normale,Candidatures spontanées.xlsx,active
 DST Global,VC international (top),,,,,normale,Candidatures spontanées.xlsx,active
 DST Global France,VC international (top),,,,,normale,Candidatures spontanées.xlsx,active
 Duff & Phelps,Advisory / TS / Valuation (grand),,,,,normale,Candidatures spontanées.xlsx,active
@@ -525,7 +525,7 @@ EMZ Partners,Fonds PE / Infra large cap,,,,,normale,Candidatures spontanées.xls
 Endrix (TS/CF),Transaction Services,,,,,normale,Tracker_Candidatures_Corporate_Finance.xlsx,active
 Energisme,Corporate Finance,,,,,normale,Tracker_Candidatures_Corporate_Finance.xlsx,active
 Engie New Ventures,Corporate Venture / Corp Dev,,,,,normale,Candidatures spontanées.xlsx,active
-Enova Partenaires,Conseil M&A,,,,,normale,Tracker_Candidatures_Corporate_Finance.xlsx;Tracker_Networking_LinkedIn.xlsx,active
+Enova Partenaires,Conseil M&A,,,greenhouse,enova,normale,Tracker_Candidatures_Corporate_Finance.xlsx;Tracker_Networking_LinkedIn.xlsx,active
 Entrepreneur Venture,Fonds PE / VC (mid),,,,,normale,Candidatures spontanées.xlsx,active
 Entrepreneurs et Finance,Boutique Corporate Finance / M&A,,,,,normale,Candidatures spontanées.xlsx,active
 Entreprise & Décisions,Conseil financier (indépendant),,,,,normale,Candidatures spontanées.xlsx,active
@@ -533,7 +533,7 @@ Epopée Gestion,Fonds PE / VC (mid),,,,,normale,Candidatures spontanées.xlsx,ac
 EQT,Fonds PE / Infra large cap,,,,,normale,Candidatures spontanées.xlsx,active
 Equalis Capital,Fonds PE / VC (mid),,,,,normale,Candidatures spontanées.xlsx,active
 EQUIDEALS,Boutique Corporate Finance / M&A,,,,,normale,Candidatures spontanées.xlsx,active
-Equinox Industries,Fonds PE / VC (mid),,,,,normale,Candidatures spontanées.xlsx,active
+Equinox Industries,Fonds PE / VC (mid),,,smartrecruiters,equinox,normale,Candidatures spontanées.xlsx,active
 Equistone Partners,Fonds PE / Infra large cap,,,,,normale,Candidatures spontanées.xlsx,active
 Equitas Finance,Boutique Corporate Finance / M&A,,,,,normale,Candidatures spontanées.xlsx,active
 EQUITIM,Boutique Corporate Finance / M&A,,,,,normale,Candidatures spontanées.xlsx,active
@@ -551,7 +551,7 @@ Euro Capital,Fonds PE / VC (mid),,,,,normale,Candidatures spontanées.xlsx,activ
 Euro Latina Finance,Boutique Corporate Finance / M&A,,,,,normale,Candidatures spontanées.xlsx,active
 Eurogroup / TS conseil,Transaction Services,,,,,normale,Tracker_Candidatures_Corporate_Finance.xlsx,active
 Eurvad,Boutique Corporate Finance / M&A,,,,,normale,Candidatures spontanées.xlsx,active
-Evelyn Partners,Family office / Holding / AM,,,,,normale,Candidatures spontanées.xlsx,active
+Evelyn Partners,Family office / Holding / AM,,,smartrecruiters,evelynpartners,normale,Candidatures spontanées.xlsx,active
 Evercore,Boutique M&A élite,,,,,normale,Candidatures spontanées.xlsx,active
 Evercore (Paris),Investment Banking,,,,,normale,Tracker_Candidatures_Corporate_Finance.xlsx,active
 Evercore Wealth Management,Family office / Holding / AM,,,,,normale,Candidatures spontanées.xlsx,active
@@ -615,17 +615,17 @@ FnB Private Equity,Fonds PE / VC (mid),,,,,normale,Candidatures spontanées.xlsx
 Foreis,Fonds PE / VC (mid),,,,,normale,Candidatures spontanées.xlsx,active
 Fort Capital Partners,Fonds PE / VC (mid),,,,,normale,Candidatures spontanées.xlsx,active
 Fortlane Partners,Boutique Corporate Finance / M&A,,,,,normale,Candidatures spontanées.xlsx,active
-Forvis Mazars,Audit / Expertise (+ CF),,,,,normale,Candidatures spontanées.xlsx;Tracker_Candidatures_Corporate_Finance.xlsx,active
-Forvis Mazars Corporate Finance,Advisory / TS / Valuation (grand),,,,,normale,Candidatures spontanées.xlsx,active
-Forvis Mazars US,Audit / Expertise (+ CF),,,,,normale,Candidatures spontanées.xlsx,active
-Founders Future,Fonds PE / VC (mid),,,,,normale,Candidatures spontanées.xlsx,active
+Forvis Mazars,Audit / Expertise (+ CF),,,greenhouse,forvismazars,normale,Candidatures spontanées.xlsx;Tracker_Candidatures_Corporate_Finance.xlsx,active
+Forvis Mazars Corporate Finance,Advisory / TS / Valuation (grand),,,greenhouse,forvismazars,normale,Candidatures spontanées.xlsx,active
+Forvis Mazars US,Audit / Expertise (+ CF),,,greenhouse,forvismazars,normale,Candidatures spontanées.xlsx,active
+Founders Future,Fonds PE / VC (mid),,,greenhouse,founders,normale,Candidatures spontanées.xlsx,active
 France Valley,Family office / Holding / AM,,,,,normale,Candidatures spontanées.xlsx,active
 FrenchFood Capital,Fonds PE / VC (mid),,,,,normale,Candidatures spontanées.xlsx,active
 Friday Capital,Private Equity,,,,,normale,Tracker_Candidatures_Corporate_Finance.xlsx,active
 Frst,Fonds PE / VC (mid),,,,,normale,Candidatures spontanées.xlsx,active
 FTI Consulting,Advisory / TS / Valuation (grand),,,,,normale,Candidatures spontanées.xlsx,active
 Fulcrum Asset Management,Family office / Holding / AM,,,,,normale,Candidatures spontanées.xlsx,active
-Future Positive Capital,VC international (top),,,,,normale,Candidatures spontanées.xlsx,active
+Future Positive Capital,VC international (top),,,greenhouse,future,normale,Candidatures spontanées.xlsx,active
 Galea & Associés,Audit / Expertise (+ CF),,,,,normale,Candidatures spontanées.xlsx,active
 Galia Gestion,Fonds PE / VC (mid),,,,,normale,Candidatures spontanées.xlsx,active
 Galiena Capital,Fonds PE / VC (mid),,,,,normale,Candidatures spontanées.xlsx,active
@@ -634,8 +634,8 @@ Garibaldi Participations,Fonds PE / VC (mid),,,,,normale,Candidatures spontanée
 GE HealthCare,Santé / Medtech,,,,,normale,Tracker_Candidatures_Corporate_Finance.xlsx,active
 GEI - Poincaré Gestion,Fonds PE / VC (mid),,,,,normale,Candidatures spontanées.xlsx,active
 Geneo Capital Entrepreneur,Fonds PE / VC (mid),,,,,normale,Candidatures spontanées.xlsx,active
-General Atlantic,Fonds PE / Infra large cap,,,,,normale,Candidatures spontanées.xlsx,active
-General Atlantic France,Fonds PE / Infra large cap,,,,,normale,Candidatures spontanées.xlsx,active
+General Atlantic,Fonds PE / Infra large cap,,,greenhouse,generalatlantic,normale,Candidatures spontanées.xlsx,active
+General Atlantic France,Fonds PE / Infra large cap,,,greenhouse,generalatlantic,normale,Candidatures spontanées.xlsx,active
 Generis Capital Partners,Fonds PE / VC (mid),,,,,normale,Candidatures spontanées.xlsx,active
 Geopost,Corporate Finance,,,,,normale,Tracker_Candidatures_Corporate_Finance.xlsx,active
 GHO Capital,Fonds PE / Infra large cap,,,,,normale,Candidatures spontanées.xlsx,active
@@ -677,9 +677,9 @@ Groupe Stentor,Boutique Corporate Finance / M&A,,,,,normale,Candidatures spontan
 Growth Capital,Fonds PE / VC (mid),,,,,normale,Candidatures spontanées.xlsx,active
 Growth Equity at Eurazeo,Fonds PE / Infra large cap,,,,,normale,Candidatures spontanées.xlsx,active
 Growth Equity at General Atlantic,Fonds PE / Infra large cap,,,,,normale,Candidatures spontanées.xlsx,active
-GTT,M&A,,,,,normale,Tracker_Candidatures_Corporate_Finance.xlsx,active
+GTT,M&A,,,smartrecruiters,gtt,normale,Tracker_Candidatures_Corporate_Finance.xlsx,active
 Guggenheim Securities,Boutique M&A élite,,,,,normale,Candidatures spontanées.xlsx,active
-GUILD CAPITAL,Fonds PE / VC (mid),,,,,normale,Candidatures spontanées.xlsx,active
+GUILD CAPITAL,Fonds PE / VC (mid),,,greenhouse,guild,normale,Candidatures spontanées.xlsx,active
 Guotai Junan International,Banque d'investissement (BB/CIB),,,,,normale,Candidatures spontanées.xlsx,active
 Gutmann Capital,Family office / Holding / AM,,,,,normale,Candidatures spontanées.xlsx,active
 H.I.G Capital,Fonds PE / Infra large cap,,,,,normale,Candidatures spontanées.xlsx,active
@@ -693,7 +693,7 @@ HEMISPHERE,Boutique Corporate Finance / M&A,,,,,normale,Candidatures spontanées
 Hermes Finance,Boutique Corporate Finance / M&A,,,,,normale,Candidatures spontanées.xlsx,active
 Hg Capital,Fonds PE / Infra large cap,,,,,normale,Candidatures spontanées.xlsx,active
 Hi Inov,Fonds PE / VC (mid),,,,,normale,Candidatures spontanées.xlsx,active
-Highland Europe,VC international (top),,,,,normale,Candidatures spontanées.xlsx,active
+Highland Europe,VC international (top),,,greenhouse,highland,normale,Candidatures spontanées.xlsx,active
 Hivest Capital Partners,Fonds PE / Infra large cap,,,,,normale,Candidatures spontanées.xlsx,active
 HLD Associés,Fonds PE / Infra large cap,,,,,normale,Candidatures spontanées.xlsx,active
 Hogan Lovells Cadwalader,Droit (Cabinet d'avocats),,,,,normale,Tracker_Candidatures_Corporate_Finance.xlsx,active
@@ -715,7 +715,7 @@ ICG,Fonds PE / Infra large cap,,,,,normale,Candidatures spontanées.xlsx,active
 ICG France,Fonds PE / Infra large cap,,,,,normale,Candidatures spontanées.xlsx,active
 Ici Capital,Fonds PE / VC (mid),,,,,normale,Candidatures spontanées.xlsx,active
 ICON Corporate Finance,Boutique M&A élite,,,,,normale,Candidatures spontanées.xlsx,active
-ICONIQ Capital,VC international (top),,,,,normale,Candidatures spontanées.xlsx,active
+ICONIQ Capital,VC international (top),,,greenhouse,iconiq,normale,Candidatures spontanées.xlsx,active
 Idawa Capital,Fonds PE / VC (mid),,,,,normale,Candidatures spontanées.xlsx,active
 Iddea Advisory,Boutique Corporate Finance / M&A,,,,,normale,Candidatures spontanées.xlsx,active
 IDI,Fonds PE / VC (mid),,,,,normale,Candidatures spontanées.xlsx,active
@@ -724,9 +724,9 @@ IDIA Capital Investissement,Fonds PE / VC (mid),,,,,normale,Candidatures spontan
 Idinvest Partners,Fonds PE / VC (mid),,,,,normale,Candidatures spontanées.xlsx,active
 IK Partners,Fonds PE / Infra large cap,,,,,normale,Candidatures spontanées.xlsx,active
 IKSEL & CO,Boutique Corporate Finance / M&A,,,,,normale,Candidatures spontanées.xlsx,active
-Impact Expansion,Fonds PE / VC (mid),,,,,normale,Candidatures spontanées.xlsx,active
-Impact Fundry,Fonds PE / VC (mid),,,,,normale,Candidatures spontanées.xlsx,active
-IMPACT Partners,Fonds PE / VC (mid),,,,,normale,Candidatures spontanées.xlsx,active
+Impact Expansion,Fonds PE / VC (mid),,,greenhouse,impact,normale,Candidatures spontanées.xlsx,active
+Impact Fundry,Fonds PE / VC (mid),,,smartrecruiters,impactfundry,normale,Candidatures spontanées.xlsx,active
+IMPACT Partners,Fonds PE / VC (mid),,,greenhouse,impact,normale,Candidatures spontanées.xlsx,active
 Implid,Conseil stratégie / management,,,,,normale,Candidatures spontanées.xlsx,active
 Implid (TS/CF),Transaction Services,,,,,normale,Tracker_Candidatures_Corporate_Finance.xlsx,active
 Impulse CF,Boutique Corporate Finance / M&A,,,,,normale,Candidatures spontanées.xlsx,active
@@ -740,7 +740,7 @@ Inco Ventures,Fonds PE / VC (mid),,,,,normale,Candidatures spontanées.xlsx,acti
 Indefi,Conseil,,,,,normale,Tracker_Candidatures_Corporate_Finance.xlsx,active
 Index Ventures,VC international (top),,,,,normale,Candidatures spontanées.xlsx,active
 Index Ventures France,VC international (top),,,,,normale,Candidatures spontanées.xlsx,active
-Indigo Capital,Fonds PE / VC (mid),,,,,normale,Candidatures spontanées.xlsx,active
+Indigo Capital,Fonds PE / VC (mid),,,greenhouse,indigo,normale,Candidatures spontanées.xlsx,active
 Indosuez Corporate Advisory,Advisory / TS / Valuation (grand),,,,,normale,Candidatures spontanées.xlsx,active
 Inelys,Audit/Conseil,,,,,normale,Tracker_Candidatures_Corporate_Finance.xlsx,active
 Inflexion Points Technology Partners,Fonds PE / VC (mid),,,,,normale,Candidatures spontanées.xlsx,active
@@ -764,8 +764,8 @@ Insight Partners,VC international (top),,,,,normale,Candidatures spontanées.xls
 Insight Partners France,VC international (top),,,,,normale,Candidatures spontanées.xlsx,active
 Inspirit Partners,Fonds PE / VC (mid),,,,,normale,Candidatures spontanées.xlsx,active
 Integrity Advisory,Conseil financier (indépendant),,,,,normale,Candidatures spontanées.xlsx,active
-Inter Invest Capital,Fonds PE / VC (mid),,,,,normale,Candidatures spontanées.xlsx,active
-Interpath,Advisory / TS / Valuation (grand),,,,,normale,Candidatures spontanées.xlsx,active
+Inter Invest Capital,Fonds PE / VC (mid),,,greenhouse,inter,normale,Candidatures spontanées.xlsx,active
+Interpath,Advisory / TS / Valuation (grand),,,greenhouse,interpath,normale,Candidatures spontanées.xlsx,active
 Intuitu,Boutique Corporate Finance / M&A,,,,,normale,Candidatures spontanées.xlsx,active
 Invesco,Family office / Holding / AM,,,,,normale,Candidatures spontanées.xlsx,active
 Invesco Paris,Family office / Holding / AM,,,,,normale,Candidatures spontanées.xlsx,active
@@ -778,7 +778,7 @@ IRD Gestion,Fonds PE / VC (mid),,,,,normale,Candidatures spontanées.xlsx,active
 IRD M&A,Boutique Corporate Finance / M&A,,,,,normale,Candidatures spontanées.xlsx,active
 IRDI Capital Investissement,Fonds PE / VC (mid),,,,,normale,Candidatures spontanées.xlsx,active
 IRDI Soridec Gestion,Fonds PE / VC (mid),,,,,normale,Candidatures spontanées.xlsx,active
-Iris Capital,Fonds PE / VC (mid),,,,,normale,Candidatures spontanées.xlsx,active
+Iris Capital,Fonds PE / VC (mid),,,greenhouse,iris,normale,Candidatures spontanées.xlsx,active
 IRPAC,Fonds PE / VC (mid),,,,,normale,Candidatures spontanées.xlsx,active
 ISAI,Fonds PE / VC (mid),,,,,normale,Candidatures spontanées.xlsx,active
 ISAI Gestion,Fonds PE / VC (mid),,,,,normale,Candidatures spontanées.xlsx,active
@@ -791,7 +791,7 @@ J.P. Morgan (Paris),Investment Banking,,,,,normale,Tracker_Candidatures_Corporat
 JAB Holding,Family office / Holding / AM,,,,,normale,Candidatures spontanées.xlsx,active
 Jacana Invest,Fonds PE / VC (mid),,,,,normale,Candidatures spontanées.xlsx,active
 JANA Investment Advisers,Family office / Holding / AM,,,,,normale,Candidatures spontanées.xlsx,active
-Jane Street,Banque d'investissement (BB/CIB),,,,,normale,Candidatures spontanées.xlsx,active
+Jane Street,Banque d'investissement (BB/CIB),,,greenhouse,janestreet,normale,Candidatures spontanées.xlsx,active
 Jasmin Capital,Boutique Corporate Finance / M&A,,,,,normale,Candidatures spontanées.xlsx;Tracker_Candidatures_Corporate_Finance.xlsx,active
 JBWere,Family office / Holding / AM,,,,,normale,Candidatures spontanées.xlsx,active
 Jefferies,Banque d'investissement (BB/CIB),,,,,normale,Candidatures spontanées.xlsx;Tracker_Candidatures_Corporate_Finance.xlsx,active
@@ -801,7 +801,7 @@ JMYX Holding,Fonds PE / VC (mid),,,,,normale,Candidatures spontanées.xlsx,activ
 Joko,Fintech,,,,,normale,Tracker_Candidatures_Corporate_Finance.xlsx,active
 Jolt Capital,Fonds PE / VC (mid),,,,,normale,Candidatures spontanées.xlsx,active
 JPMorganChase,Banque d'investissement (BB/CIB),,,,,normale,Candidatures spontanées.xlsx,active
-JRC Corporate Consulting,Conseil financier (indépendant),,,,,normale,Candidatures spontanées.xlsx,active
+JRC Corporate Consulting,Conseil financier (indépendant),,,greenhouse,jrc,normale,Candidatures spontanées.xlsx,active
 JTB Conseil,Conseil financier (indépendant),,,,,normale,Candidatures spontanées.xlsx,active
 Julius Baer,Family office / Holding / AM,,,,,normale,Candidatures spontanées.xlsx,active
 June Partners,Advisory / TS / Valuation (grand),,,,,normale,Candidatures spontanées.xlsx,active
@@ -811,8 +811,8 @@ Kartesia,Fonds PE / Infra large cap,,,,,normale,Candidatures spontanées.xlsx,ac
 KEA Partners,Conseil stratégie / management,,,,,normale,Candidatures spontanées.xlsx,active
 Keensight Capital (Londres),Private Equity,,,,,normale,Tracker_Candidatures_Corporate_Finance.xlsx,active
 Keensight Capital (Paris),Private Equity,,,,,normale,Tracker_Candidatures_Corporate_Finance.xlsx,active
-Kepler Cheuvreux,Banque d'investissement (BB/CIB),,,,,normale,Candidatures spontanées.xlsx,active
-Kepler Cheuvreux IFE,Banque d'investissement (BB/CIB),,,,,normale,Candidatures spontanées.xlsx,active
+Kepler Cheuvreux,Banque d'investissement (BB/CIB),,,lever,kepler,normale,Candidatures spontanées.xlsx,active
+Kepler Cheuvreux IFE,Banque d'investissement (BB/CIB),,,lever,kepler,normale,Candidatures spontanées.xlsx,active
 Kerala Ventures,Fonds PE / VC (mid),,,,,normale,Candidatures spontanées.xlsx,active
 Kering,,,,,,normale,Tracker_Candidatures_Corporate_Finance.xlsx,active
 Kerria AM,Asset Management,,,,,normale,Tracker_Candidatures_Corporate_Finance.xlsx,active
@@ -866,14 +866,14 @@ LeFonds Capital,Fonds PE / VC (mid),,,,,normale,Candidatures spontanées.xlsx,ac
 Leonardo / Houlihan M&A,M&A,,,,,normale,Tracker_Candidatures_Corporate_Finance.xlsx,active
 Leuwen-EuroLand,Boutique Corporate Finance / M&A,,,,,normale,Candidatures spontanées.xlsx,active
 LEVY CAPITAL PARTNERS,Fonds PE / VC (mid),,,,,normale,Candidatures spontanées.xlsx,active
-LFC Partners,Fonds PE / VC (mid),,,,,normale,Candidatures spontanées.xlsx,active
+LFC Partners,Fonds PE / VC (mid),,,smartrecruiters,lfc,normale,Candidatures spontanées.xlsx,active
 LFPI,Fonds PE / VC (mid),,,,,normale,Candidatures spontanées.xlsx,active
 LGT European Capital Ltd,Fonds PE / Infra large cap,,,,,normale,Candidatures spontanées.xlsx,active
 LIAN Group,Family office / Holding / AM,,,,,normale,Candidatures spontanées.xlsx,active
 Lightspeed France,VC international (top),,,,,normale,Candidatures spontanées.xlsx,active
 Lightspeed Venture Partners,VC international (top),,,,,normale,Candidatures spontanées.xlsx,active
-Lincoln International,Boutique M&A élite,,,,,normale,Candidatures spontanées.xlsx,active
-Lincoln International France,M&A,,,,,normale,Tracker_Candidatures_Corporate_Finance.xlsx,active
+Lincoln International,Boutique M&A élite,,,greenhouse,lincolninternational,normale,Candidatures spontanées.xlsx,active
+Lincoln International France,M&A,,,greenhouse,lincolninternational,normale,Tracker_Candidatures_Corporate_Finance.xlsx,active
 Linkapital,Fonds PE / VC (mid),,,,,normale,Candidatures spontanées.xlsx,active
 Linkera,Boutique Corporate Finance / M&A,,,,,normale,Candidatures spontanées.xlsx,active
 Linkers,Boutique M&A mid-market,,,,,normale,Candidatures spontanées.xlsx,active
@@ -886,17 +886,17 @@ Logion Finance,Boutique Corporate Finance / M&A,,,,,normale,Candidatures spontan
 Lombard Odier Group,Family office / Holding / AM,,,,,normale,Candidatures spontanées.xlsx,active
 LT Capital,Fonds PE / VC (mid),,,,,normale,Candidatures spontanées.xlsx,active
 LVB Capital,Fonds PE / VC (mid),,,,,normale,Candidatures spontanées.xlsx,active
-LVMH / Christian Dior Couture,Luxe/Industrie,,,,,normale,Tracker_Candidatures_Corporate_Finance.xlsx,active
-LVMH / Guerlain,Luxe / Cosmétique,,,,,normale,Tracker_Candidatures_Corporate_Finance.xlsx,active
-LVMH Luxury Ventures,Corporate Venture / Corp Dev,,,,,normale,Candidatures spontanées.xlsx,active
+LVMH / Christian Dior Couture,Luxe/Industrie,,,smartrecruiters,lvmh,normale,Tracker_Candidatures_Corporate_Finance.xlsx,active
+LVMH / Guerlain,Luxe / Cosmétique,,,smartrecruiters,lvmh,normale,Tracker_Candidatures_Corporate_Finance.xlsx,active
+LVMH Luxury Ventures,Corporate Venture / Corp Dev,,,smartrecruiters,lvmh,normale,Candidatures spontanées.xlsx,active
 Lynk House,Corporate Finance,,,,,normale,Tracker_Candidatures_Corporate_Finance.xlsx,active
 M Capital,Fonds PE / VC (mid),,,,,normale,Candidatures spontanées.xlsx;Tracker_Candidatures_Corporate_Finance.xlsx;Tracker_Networking_LinkedIn.xlsx,active
 M&A WORLDWIDE,Boutique M&A mid-market,,,,,normale,Candidatures spontanées.xlsx,active
 Macquarie,Banque d'investissement (BB/CIB),,,,,normale,Candidatures spontanées.xlsx;Tracker_Candidatures_Corporate_Finance.xlsx,active
 Macquarie Capital France,Banque d'investissement (BB/CIB),,,,,normale,Candidatures spontanées.xlsx,active
 Macquarie Infrastructure,Fonds PE / Infra large cap,,,,,normale,Candidatures spontanées.xlsx,active
-Magellan Asset Finance,Boutique Corporate Finance / M&A,,,,,normale,Candidatures spontanées.xlsx,active
-Magellan Partners,Conseil stratégie / management,,,,,normale,Candidatures spontanées.xlsx,active
+Magellan Asset Finance,Boutique Corporate Finance / M&A,,,smartrecruiters,magellan,normale,Candidatures spontanées.xlsx,active
+Magellan Partners,Conseil stratégie / management,,,smartrecruiters,magellan,normale,Candidatures spontanées.xlsx,active
 MAIF Avenir,Corporate Venture / Corp Dev,,,,,normale,Candidatures spontanées.xlsx,active
 Mandarine Gestion,Family office / Holding / AM,,,,,normale,Candidatures spontanées.xlsx,active
 Mansartis,Family office / Holding / AM,,,,,normale,Candidatures spontanées.xlsx,active
@@ -912,10 +912,10 @@ Matignon Investissement et Gestion,Fonds PE / VC (mid),,,,,normale,Candidatures 
 Matmut,Assurance,,,,,normale,Tracker_Candidatures_Corporate_Finance.xlsx,active
 Mawenzi Partners,Fonds PE / VC (mid),,,,,normale,Candidatures spontanées.xlsx,active
 Maydane Capital,Fonds PE / VC (mid),,,,,normale,Candidatures spontanées.xlsx,active
-Mazars,Audit / Expertise (+ CF),,,,,normale,Candidatures spontanées.xlsx,active
-Mazars Consulting,Advisory / TS / Valuation (grand),,,,,normale,Candidatures spontanées.xlsx,active
-Mazars Maroc,Audit / Expertise (+ CF),,,,,normale,Candidatures spontanées.xlsx,active
-Mazars Restructuring,Advisory / TS / Valuation (grand),,,,,normale,Candidatures spontanées.xlsx,active
+Mazars,Audit / Expertise (+ CF),,,smartrecruiters,mazars,normale,Candidatures spontanées.xlsx,active
+Mazars Consulting,Advisory / TS / Valuation (grand),,,smartrecruiters,mazars,normale,Candidatures spontanées.xlsx,active
+Mazars Maroc,Audit / Expertise (+ CF),,,smartrecruiters,mazars,normale,Candidatures spontanées.xlsx,active
+Mazars Restructuring,Advisory / TS / Valuation (grand),,,smartrecruiters,mazars,normale,Candidatures spontanées.xlsx,active
 MBA Capital,Boutique Corporate Finance / M&A,,,,,normale,Candidatures spontanées.xlsx;Tracker_Candidatures_Corporate_Finance.xlsx,active
 MBA Capital / Conseil Cession Acquisition,Boutique Corporate Finance / M&A,,,,,normale,Candidatures spontanées.xlsx,active
 MBO Partenaires,Fonds PE / VC (mid),,,,,normale,Candidatures spontanées.xlsx,active
@@ -970,13 +970,13 @@ Natixis Investment Managers,Family office / Holding / AM,,,,,normale,Candidature
 Natixis Partners (small cap team),M&A,,,,,normale,Tracker_Candidatures_Corporate_Finance.xlsx,active
 Natixis Partners (TS interface),Transaction Services,,,,,normale,Tracker_Candidatures_Corporate_Finance.xlsx,active
 Natixis Wealth Management,Family office / Holding / AM,,,,,normale,Candidatures spontanées.xlsx,active
-Natureo Finance,Boutique Corporate Finance / M&A,,,,,normale,Candidatures spontanées.xlsx,active
+Natureo Finance,Boutique Corporate Finance / M&A,,,smartrecruiters,natureo,normale,Candidatures spontanées.xlsx,active
 NatWest Group,Banque d'investissement (BB/CIB),,,,,normale,Candidatures spontanées.xlsx,active
 Naxicap Advisory,Boutique Corporate Finance / M&A,,,,,normale,Candidatures spontanées.xlsx,active
 Naxicap Partners,Fonds PE / VC (mid),,,,,normale,Candidatures spontanées.xlsx,active
 NCI,Fonds PE / VC (mid),,,,,normale,Candidatures spontanées.xlsx,active
-New Alpha Asset Management,Family office / Holding / AM,,,,,normale,Candidatures spontanées.xlsx,active
-New Deal Factory,Conseil stratégie / management,,,,,normale,Candidatures spontanées.xlsx,active
+New Alpha Asset Management,Family office / Holding / AM,,,greenhouse,new,normale,Candidatures spontanées.xlsx,active
+New Deal Factory,Conseil stratégie / management,,,greenhouse,new,normale,Candidatures spontanées.xlsx,active
 NewAlpha Verto,Fonds PE / VC (mid),,,,,normale,Candidatures spontanées.xlsx,active
 NewCo Corporate Finance,Boutique Corporate Finance / M&A,,,,,normale,Candidatures spontanées.xlsx,active
 Newfund,Fonds PE / VC (mid),,,,,normale,Candidatures spontanées.xlsx,active
@@ -1039,7 +1039,7 @@ Orange Ventures,Corporate Venture / Corp Dev,,,,,normale,Candidatures spontanée
 Orcom (TS/CF),Transaction Services,,,,,normale,Tracker_Candidatures_Corporate_Finance.xlsx,active
 Orfite,Fonds PE / VC (mid),,,,,normale,Candidatures spontanées.xlsx,active
 Organisation Conseil Audit,Audit / Expertise (+ CF),,,,,normale,Candidatures spontanées.xlsx,active
-Orium,Conseil stratégie / management,,,,,normale,Candidatures spontanées.xlsx,active
+Orium,Conseil stratégie / management,,,greenhouse,orium,normale,Candidatures spontanées.xlsx,active
 Otium Capital,Family office / Holding / AM,,,,,normale,Candidatures spontanées.xlsx,active
 Ouest Croissance,Fonds PE / VC (mid),,,,,normale,Candidatures spontanées.xlsx,active
 OVNI Capital,Fonds PE / VC (mid),,,,,normale,Candidatures spontanées.xlsx,active
@@ -1077,7 +1077,7 @@ Phitrust Impact Investors,Family office / Holding / AM,,,,,normale,Candidatures 
 Pictet Asset Management,Family office / Holding / AM,,,,,normale,Candidatures spontanées.xlsx,active
 Pictet Group,Family office / Holding / AM,,,,,normale,Candidatures spontanées.xlsx,active
 Pictet Wealth Management,Family office / Holding / AM,,,,,normale,Candidatures spontanées.xlsx,active
-Picus Capital,VC international (top),,,,,normale,Candidatures spontanées.xlsx,active
+Picus Capital,VC international (top),,,lever,picus,normale,Candidatures spontanées.xlsx,active
 PIMCO Prime Real Estate,Family office / Holding / AM,,,,,normale,Candidatures spontanées.xlsx,active
 Piraeus,Banque d'investissement (BB/CIB),,,,,normale,Candidatures spontanées.xlsx,active
 PJT Partners,Boutique M&A élite,,,,,normale,Candidatures spontanées.xlsx,active
@@ -1101,7 +1101,7 @@ Project A Ventures France,VC international (top),,,,,normale,Candidatures sponta
 PROMEPAR Asset Management,Family office / Holding / AM,,,,,normale,Candidatures spontanées.xlsx,active
 Proparco,Corporate Venture / Corp Dev,,,,,normale,Candidatures spontanées.xlsx,active
 Protiviti France,Conseil,,,,,normale,Tracker_Candidatures_Corporate_Finance.xlsx,active
-PSG Equity,Fonds PE / Infra large cap,,,,,normale,Candidatures spontanées.xlsx,active
+PSG Equity,Fonds PE / Infra large cap,,,greenhouse,psg,normale,Candidatures spontanées.xlsx,active
 Publicis Connected Media France,Média / Conseil,,,,,normale,Tracker_Candidatures_Corporate_Finance.xlsx,active
 Publicis Finance,Corporate Venture / Corp Dev,,,,,normale,Candidatures spontanées.xlsx,active
 Pure Partners Advisory,Conseil financier (indépendant),,,,,normale,Candidatures spontanées.xlsx,active
@@ -1131,7 +1131,7 @@ Red Med Capital,Banque d'investissement (BB/CIB),,,,,normale,Candidatures sponta
 Renault Group,Industrie (Automobile),,,,,normale,Tracker_Candidatures_Corporate_Finance.xlsx,active
 Resolvys,Conseil stratégie / management,,,,,normale,Candidatures spontanées.xlsx,active
 Results International,Boutique M&A élite,,,,,normale,Candidatures spontanées.xlsx,active
-Revaia,Fonds PE / VC (mid),,,,,normale,Candidatures spontanées.xlsx,active
+Revaia,Fonds PE / VC (mid),,,smartrecruiters,revaia,normale,Candidatures spontanées.xlsx,active
 RGreen Invest,Family office / Holding / AM,,,,,normale,Candidatures spontanées.xlsx,active
 Rhone Alpes PME Gestion,Fonds PE / VC (mid),,,,,normale,Candidatures spontanées.xlsx,active
 Richelieu Invest,Family office / Holding / AM,,,,,normale,Candidatures spontanées.xlsx,active
@@ -1154,7 +1154,7 @@ Saci Reberty,Fonds PE / VC (mid),,,,,normale,Candidatures spontanées.xlsx,activ
 Saegus,Conseil stratégie / management,,,,,normale,Candidatures spontanées.xlsx,active
 Sagard,Private Equity (stage),,,,,normale,Tracker_Candidatures_Corporate_Finance.xlsx,active
 Sailly Transmission,Boutique Corporate Finance / M&A,,,,,normale,Candidatures spontanées.xlsx,active
-Saint-Gobain Ventures,Corporate Venture / Corp Dev,,,,,normale,Candidatures spontanées.xlsx,active
+Saint-Gobain Ventures,Corporate Venture / Corp Dev,,,smartrecruiters,saintgobain,normale,Candidatures spontanées.xlsx,active
 Samothrace,Fonds PE / VC (mid),,,,,normale,Candidatures spontanées.xlsx,active
 Santander,Banque d'investissement (BB/CIB),,,,,normale,Candidatures spontanées.xlsx,active
 Santander CIB,Banque d'investissement (BB/CIB),,,,,normale,Candidatures spontanées.xlsx,active
@@ -1170,7 +1170,7 @@ Schroders,Family office / Holding / AM,,,,,normale,Candidatures spontanées.xlsx
 Schroders Wealth Management,Family office / Holding / AM,,,,,normale,Candidatures spontanées.xlsx,active
 SDM - Corporate Finance Group,Boutique Corporate Finance / M&A,,,,,normale,Candidatures spontanées.xlsx,active
 SEB Alliance,Corporate Venture / Corp Dev,,,,,normale,Candidatures spontanées.xlsx,active
-Sefico Nexia,Audit / Expertise (+ CF),,,,,normale,Candidatures spontanées.xlsx,active
+Sefico Nexia,Audit / Expertise (+ CF),,,smartrecruiters,seficonexia,normale,Candidatures spontanées.xlsx,active
 Septentrion Finance,Boutique Corporate Finance / M&A,,,,,normale,Candidatures spontanées.xlsx,active
 Septentrion Finance (CF),Corporate Finance,,,,,normale,Tracker_Candidatures_Corporate_Finance.xlsx,active
 Sequoia Capital,VC international (top),,,,,normale,Candidatures spontanées.xlsx,active
@@ -1181,10 +1181,10 @@ Seven2,Fonds PE / Infra large cap,,,,,normale,Candidatures spontanées.xlsx,acti
 Seven2 (ex-Apax),Fonds PE / Infra large cap,,,,,normale,Candidatures spontanées.xlsx,active
 Sevenstones,Fonds PE / VC (mid),,,,,normale,Candidatures spontanées.xlsx,active
 Shibumi Corporate Finance,Boutique Corporate Finance / M&A,,,,,normale,Candidatures spontanées.xlsx,active
-Sia Partners,Conseil stratégie / management,,,,,normale,Candidatures spontanées.xlsx,active
+Sia Partners,Conseil stratégie / management,,,smartrecruiters,sia,normale,Candidatures spontanées.xlsx,active
 Side Capital,Fonds PE / VC (mid),,,,,normale,Candidatures spontanées.xlsx,active
 Sienna IM,Family office / Holding / AM,,,,,normale,Candidatures spontanées.xlsx,active
-Sienna Investment Managers,Family office / Holding / AM,,,,,normale,Candidatures spontanées.xlsx,active
+Sienna Investment Managers,Family office / Holding / AM,,,smartrecruiters,siennainvestmentmanagers,normale,Candidatures spontanées.xlsx,active
 Sienna Investment Managers Corporate Finance,Boutique Corporate Finance / M&A,,,,,normale,Candidatures spontanées.xlsx,active
 Sigma Corporate Finance,Boutique Corporate Finance / M&A,,,,,normale,Candidatures spontanées.xlsx,active
 Sigma Gestion,Fonds PE / VC (mid),,,,,normale,Candidatures spontanées.xlsx,active
@@ -1194,8 +1194,8 @@ Sinnoptic Consulting,Conseil stratégie / management,,,,,normale,Candidatures sp
 Siparex,Fonds PE / VC (mid),,,,,normale,Candidatures spontanées.xlsx;Tracker_Candidatures_Corporate_Finance.xlsx,active
 Skello,Tech / SaaS — corporate,,,,,normale,Tracker_Candidatures_Corporate_Finance.xlsx,active
 Smalt Capital,Fonds PE / VC (mid),,,,,normale,Candidatures spontanées.xlsx,active
-Smart Entrepreneurs Partners,Fonds PE / VC (mid),,,,,normale,Candidatures spontanées.xlsx,active
-SMART PARTNERS,Conseil stratégie / management,,,,,normale,Candidatures spontanées.xlsx,active
+Smart Entrepreneurs Partners,Fonds PE / VC (mid),,,smartrecruiters,smart,normale,Candidatures spontanées.xlsx,active
+SMART PARTNERS,Conseil stratégie / management,,,smartrecruiters,smart,normale,Candidatures spontanées.xlsx,active
 SMBC,Banque d'investissement (BB/CIB),,,,,normale,Candidatures spontanées.xlsx,active
 SNCF Digital Ventures,Corporate Venture / Corp Dev,,,,,normale,Candidatures spontanées.xlsx,active
 Societe Generale Corporate and Investment Banking - SGCIB,Banque d'investissement (BB/CIB),,,,,normale,Candidatures spontanées.xlsx,active
@@ -1225,7 +1225,7 @@ Sora,À confirmer,,,,,normale,Tracker_Candidatures_Corporate_Finance.xlsx,active
 Soregor,Fonds PE / VC (mid),,,,,normale,Candidatures spontanées.xlsx,active
 Sorgem Evaluation,Advisory / TS / Valuation (grand),,,,,normale,Candidatures spontanées.xlsx,active
 SoTalent,Autre,,,,,normale,Tracker_Candidatures_Corporate_Finance.xlsx,active
-Source Ventures,Fonds PE / VC (mid),,,,,normale,Candidatures spontanées.xlsx,active
+Source Ventures,Fonds PE / VC (mid),,,lever,source,normale,Candidatures spontanées.xlsx,active
 Sowefund,,,,,,normale,Tracker_Candidatures_Corporate_Finance.xlsx,active
 Spadel Capital,Fonds PE / VC (mid),,,,,normale,Candidatures spontanées.xlsx,active
 Sparring Capital,Fonds PE / Infra large cap,,,,,normale,Candidatures spontanées.xlsx,active
@@ -1233,7 +1233,7 @@ SPE Capital,Fonds PE / VC (mid),,,,,normale,Candidatures spontanées.xlsx,active
 Speedinvest,VC international (top),,,,,normale,Candidatures spontanées.xlsx,active
 Speedinvest France,VC international (top),,,,,normale,Candidatures spontanées.xlsx,active
 Spring Lab,Fonds PE / VC (mid),,,,,normale,Candidatures spontanées.xlsx,active
-SQUAD Conseil et Expertises,Conseil stratégie / management,,,,,normale,Candidatures spontanées.xlsx,active
+SQUAD Conseil et Expertises,Conseil stratégie / management,,,greenhouse,squad,normale,Candidatures spontanées.xlsx,active
 Square Management,Conseil stratégie / management,,,,,normale,Candidatures spontanées.xlsx,active
 Square Management (CF),Corporate Finance,,,,,normale,Tracker_Candidatures_Corporate_Finance.xlsx,active
 Squareness,Conseil stratégie / management,,,,,normale,Candidatures spontanées.xlsx,active
@@ -1244,15 +1244,15 @@ Starquest Capital,Fonds PE / VC (mid),,,,,normale,Candidatures spontanées.xlsx,
 State Street,Family office / Holding / AM,,,,,normale,Candidatures spontanées.xlsx,active
 Stella - Private Equity,Fonds PE / VC (mid),,,,,normale,Candidatures spontanées.xlsx,active
 Sterwen Consulting (CF),Corporate Finance,,,,,normale,Tracker_Candidatures_Corporate_Finance.xlsx,active
-Stifel Europe,Banque d'investissement (BB/CIB),,,,,normale,Candidatures spontanées.xlsx,active
-Stifel Financial Corp.,Banque d'investissement (BB/CIB),,,,,normale,Candidatures spontanées.xlsx,active
+Stifel Europe,Banque d'investissement (BB/CIB),,,smartrecruiters,stifel,normale,Candidatures spontanées.xlsx,active
+Stifel Financial Corp.,Banque d'investissement (BB/CIB),,,smartrecruiters,stifel,normale,Candidatures spontanées.xlsx,active
 Stim Consulting,Conseil stratégie / management,,,,,normale,Candidatures spontanées.xlsx,active
 Stonepeak,Fonds PE / Infra large cap,,,,,normale,Candidatures spontanées.xlsx,active
 Summit Partners,Fonds PE / Infra large cap,,,,,normale,Candidatures spontanées.xlsx,active
-Super Capital,Fonds PE / VC (mid),,,,,normale,Candidatures spontanées.xlsx;Tracker_Candidatures_Corporate_Finance.xlsx,active
+Super Capital,Fonds PE / VC (mid),,,greenhouse,super,normale,Candidatures spontanées.xlsx;Tracker_Candidatures_Corporate_Finance.xlsx,active
 SWEN Capital Partners,Family office / Holding / AM,,,,,normale,Candidatures spontanées.xlsx,active
 Sycomore / Aforge M&A,M&A,,,,,normale,Tracker_Candidatures_Corporate_Finance.xlsx,active
-Sycomore Asset Management,Family office / Holding / AM,,,,,normale,Candidatures spontanées.xlsx,active
+Sycomore Asset Management,Family office / Holding / AM,,,smartrecruiters,sycomoreassetmanagement,normale,Candidatures spontanées.xlsx,active
 Sycomore Corporate (build-up),M&A,,,,,normale,Tracker_Candidatures_Corporate_Finance.xlsx,active
 Sycomore Corporate Finance,M&A,,,,,normale,Tracker_Candidatures_Corporate_Finance.xlsx,active
 Sycomore Partners M&A,M&A,,,,,normale,Tracker_Candidatures_Corporate_Finance.xlsx,active
@@ -1261,23 +1261,23 @@ Synercom France,Fonds PE / VC (mid),,,,,normale,Candidatures spontanées.xlsx;Tr
 Synergie Audit,Audit / Expertise (+ CF),,,,,normale,Candidatures spontanées.xlsx,active
 Séné & Cie,Fonds PE / VC (mid),,,,,normale,Candidatures spontanées.xlsx,active
 Sénévé Capital,Fonds PE / VC (mid),,,,,normale,Candidatures spontanées.xlsx,active
-TA Associates,Fonds PE / Infra large cap,,,,,normale,Candidatures spontanées.xlsx,active
-TechnicAtome,Industrie (Énergie),,,,,normale,Tracker_Candidatures_Corporate_Finance.xlsx,active
-Teneo,Advisory / TS / Valuation (grand),,,,,normale,Candidatures spontanées.xlsx,active
+TA Associates,Fonds PE / Infra large cap,,,smartrecruiters,taassociates,normale,Candidatures spontanées.xlsx,active
+TechnicAtome,Industrie (Énergie),,,smartrecruiters,technicatome,normale,Tracker_Candidatures_Corporate_Finance.xlsx,active
+Teneo,Advisory / TS / Valuation (grand),,,greenhouse,teneo,normale,Candidatures spontanées.xlsx,active
 Tertium Management,Fonds PE / VC (mid),,,,,normale,Candidatures spontanées.xlsx,active
 Tevali Partners,Boutique Corporate Finance / M&A,,,,,normale,Candidatures spontanées.xlsx;Tracker_Candidatures_Corporate_Finance.xlsx,active
 TH Global Capital,Fonds PE / VC (mid),,,,,normale,Candidatures spontanées.xlsx,active
-Thales,Industrie (Défense),,,,,normale,Tracker_Candidatures_Corporate_Finance.xlsx,active
+Thales,Industrie (Défense),,,smartrecruiters,thales,normale,Tracker_Candidatures_Corporate_Finance.xlsx,active
 The Carlyle Group,Fonds PE / Infra large cap,,,,,normale,Candidatures spontanées.xlsx,active
 The Riverside Company,Fonds PE / VC (mid),,,,,normale,Candidatures spontanées.xlsx,active
 Tikamoon,Retail/E-commerce,,,,,normale,Tracker_Candidatures_Corporate_Finance.xlsx,active
-Tikehau Capital,Fonds PE / Infra large cap,,,,,normale,Candidatures spontanées.xlsx,active
+Tikehau Capital,Fonds PE / Infra large cap,,,smartrecruiters,tikehaucapital,normale,Candidatures spontanées.xlsx,active
 Tioopo Capital,Fonds PE / VC (mid),,,,,normale,Candidatures spontanées.xlsx,active
 TNP Consultants,Conseil,,,,,normale,Tracker_Candidatures_Corporate_Finance.xlsx,active
 TotalEnergies,Trésorerie,,,,,normale,Tracker_Candidatures_Corporate_Finance.xlsx,active
 TotalEnergies Ventures,Corporate Venture / Corp Dev,,,,,normale,Candidatures spontanées.xlsx,active
 TowerBrook Capital Partners,Fonds PE / Infra large cap,,,,,normale,Candidatures spontanées.xlsx,active
-TP ICAP,Banque d'investissement (BB/CIB),,,,,normale,Candidatures spontanées.xlsx,active
+TP ICAP,Banque d'investissement (BB/CIB),,,smartrecruiters,tpicap,normale,Candidatures spontanées.xlsx,active
 Transaction R,Boutique M&A mid-market,,,,,normale,Candidatures spontanées.xlsx,active
 Transaction R (Rothschild),M&A,,,,,normale,Tracker_Candidatures_Corporate_Finance.xlsx,active
 Transactions & Compagnie,Boutique Corporate Finance / M&A,,,,,normale,Candidatures spontanées.xlsx,active
@@ -1325,7 +1325,7 @@ Ventech,Fonds PE / VC (mid),,,,,normale,Candidatures spontanées.xlsx,active
 Veolia Ventures,Corporate Venture / Corp Dev,,,,,normale,Candidatures spontanées.xlsx,active
 Verdane,Fonds PE / Infra large cap,,,,,normale,Candidatures spontanées.xlsx,active
 Vertuo Conseil,Conseil stratégie / management,,,,,normale,Candidatures spontanées.xlsx,active
-Vetoquinol Global,,,,,,normale,Tracker_Candidatures_Corporate_Finance.xlsx,active
+Vetoquinol Global,,,,smartrecruiters,vetoquinol,normale,Tracker_Candidatures_Corporate_Finance.xlsx,active
 Victoires Haussmann SGP,Family office / Holding / AM,,,,,normale,Candidatures spontanées.xlsx,active
 VIGIFINANCE Family Office,Family office / Holding / AM,,,,,normale,Candidatures spontanées.xlsx,active
 VINCI Energies,BTP / Énergie,,,,,normale,Tracker_Candidatures_Corporate_Finance.xlsx,active
@@ -1345,14 +1345,14 @@ Wendel,Family office / Holding / AM,,,,,normale,Candidatures spontanées.xlsx,ac
 WePartner Consulting,Conseil stratégie / management,,,,,normale,Candidatures spontanées.xlsx,active
 Wesoar Consulting,Conseil stratégie / management,,,,,normale,Candidatures spontanées.xlsx,active
 Whedge Corporate Finance,Boutique Corporate Finance / M&A,,,,,normale,Candidatures spontanées.xlsx,active
-Wil Consulting,Conseil stratégie / management,,,,,normale,Candidatures spontanées.xlsx,active
-William Blair France,Boutique M&A élite,,,,,normale,Candidatures spontanées.xlsx;Tracker_Candidatures_Corporate_Finance.xlsx,active
+Wil Consulting,Conseil stratégie / management,,,greenhouse,wil,normale,Candidatures spontanées.xlsx,active
+William Blair France,Boutique M&A élite,,,greenhouse,williamblair,normale,Candidatures spontanées.xlsx;Tracker_Candidatures_Corporate_Finance.xlsx,active
 William Nahum Associés & Partenaires,Fonds PE / VC (mid),,,,,normale,Candidatures spontanées.xlsx,active
 Windcliff Partners,Fonds PE / VC (mid),,,,,normale,Candidatures spontanées.xlsx,active
 Wine Bankers & Co,Banque d'investissement (BB/CIB),,,,,normale,Candidatures spontanées.xlsx,active
 WINGATE,Boutique Corporate Finance / M&A,,,,,normale,Candidatures spontanées.xlsx,active
-WorldQuant,Family office / Holding / AM,,,,,normale,Candidatures spontanées.xlsx,active
-WPP Media,Marketing / Media,,,,,normale,Tracker_Candidatures_Corporate_Finance.xlsx,active
+WorldQuant,Family office / Holding / AM,,,greenhouse,worldquant,normale,Candidatures spontanées.xlsx,active
+WPP Media,Marketing / Media,,,greenhouse,wppmedia,normale,Tracker_Candidatures_Corporate_Finance.xlsx,active
 XAnge,Fonds PE / VC (mid),,,,,normale,Candidatures spontanées.xlsx,active
 XRC Ventures,Fonds PE / VC (mid),,,,,normale,Candidatures spontanées.xlsx,active
 Yarra Capital Management,Family office / Holding / AM,,,,,normale,Candidatures spontanées.xlsx,active
