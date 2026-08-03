@@ -26628,5 +26628,75 @@
   "title": "Executive eCommerce Search",
   "company": "WPP Media",
   "notified_at": null
+ },
+ "greenhouse:wppmedia:5283308008": {
+  "first_seen": "2026-08-03T06:23:09.983837+00:00",
+  "published_at": "2026-08-02T23:19:48-04:00",
+  "title": "Implementation & Activation Manager",
+  "company": "WPP Media",
+  "notified_at": null
+ },
+ "greenhouse:wppmedia:5285342008": {
+  "first_seen": "2026-08-03T06:23:10.027954+00:00",
+  "published_at": "2026-08-03T00:59:08-04:00",
+  "title": "Partnerships Manager",
+  "company": "WPP Media",
+  "notified_at": null
+ },
+ "greenhouse:wppmedia:5286715008": {
+  "first_seen": "2026-08-03T06:23:10.040684+00:00",
+  "published_at": "2026-08-03T00:29:30-04:00",
+  "title": "Programmatic Trading, Executive",
+  "company": "WPP Media",
+  "notified_at": null
+ },
+ "greenhouse:wppmedia:5286702008": {
+  "first_seen": "2026-08-03T06:23:10.082948+00:00",
+  "published_at": "2026-08-03T00:24:58-04:00",
+  "title": "Senior Specialist, Biddable Search",
+  "company": "WPP Media",
+  "notified_at": null
+ },
+ "smartrecruiters:equinox:744000141178019": {
+  "first_seen": "2026-08-03T06:23:10.114201+00:00",
+  "published_at": "2026-08-03T05:47:58.291Z",
+  "title": "Membership Sales Advisor, Upper West Side",
+  "company": "Equinox Industries",
+  "notified_at": null
+ },
+ "smartrecruiters:equinox:744000141177979": {
+  "first_seen": "2026-08-03T06:23:10.114211+00:00",
+  "published_at": "2026-08-03T05:47:50.872Z",
+  "title": "Membership Sales Advisor, Upper East Side",
+  "company": "Equinox Industries",
+  "notified_at": null
+ },
+ "smartrecruiters:equinox:744000141177919": {
+  "first_seen": "2026-08-03T06:23:10.114216+00:00",
+  "published_at": "2026-08-03T05:47:33.639Z",
+  "title": "Membership Sales Advisor, Midtown",
+  "company": "Equinox Industries",
+  "notified_at": null
+ },
+ "smartrecruiters:equinox:744000141177829": {
+  "first_seen": "2026-08-03T06:23:10.114221+00:00",
+  "published_at": "2026-08-03T05:47:16.733Z",
+  "title": "Membership Sales Advisor, Downtown Manhattan",
+  "company": "Equinox Industries",
+  "notified_at": null
+ },
+ "smartrecruiters:equinox:744000141177749": {
+  "first_seen": "2026-08-03T06:23:10.114225+00:00",
+  "published_at": "2026-08-03T05:47:02.811Z",
+  "title": "Membership Sales Advisor, Brooklyn",
+  "company": "Equinox Industries",
+  "notified_at": null
+ },
+ "smartrecruiters:sia:744000141174589": {
+  "first_seen": "2026-08-03T06:23:10.116449+00:00",
+  "published_at": "2026-08-03T04:54:43.178Z",
+  "title": "Data Science Consultant",
+  "company": "Sia Partners",
+  "notified_at": null
  }
 }
