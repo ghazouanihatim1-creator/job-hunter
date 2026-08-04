@@ -27629,5 +27629,33 @@
   "title": "Maintenance Associates, E 63rd Street",
   "company": "Equinox Industries",
   "notified_at": null
+ },
+ "greenhouse:wppmedia:5288206008": {
+  "first_seen": "2026-08-04T05:46:30.349816+00:00",
+  "published_at": "2026-08-03T23:32:46-04:00",
+  "title": "Manager, Planning",
+  "company": "WPP Media",
+  "notified_at": null
+ },
+ "smartrecruiters:equinox:744000141401299": {
+  "first_seen": "2026-08-04T05:46:30.461594+00:00",
+  "published_at": "2026-08-04T02:33:38.710Z",
+  "title": "Shop Style Advisor, Yorkville",
+  "company": "Equinox Industries",
+  "notified_at": null
+ },
+ "smartrecruiters:sia:744000141411126": {
+  "first_seen": "2026-08-04T05:46:30.463856+00:00",
+  "published_at": "2026-08-04T05:36:48.666Z",
+  "title": "Marketing Strategy & Operations Consultant (Associate Manager)",
+  "company": "Sia Partners",
+  "notified_at": null
+ },
+ "smartrecruiters:sia:744000141411359": {
+  "first_seen": "2026-08-04T05:46:30.463863+00:00",
+  "published_at": "2026-08-04T05:36:04.684Z",
+  "title": "Marketing Strategy & Operations Consultant (Associate Manager)",
+  "company": "Sia Partners",
+  "notified_at": null
  }
 }
