@@ -29365,5 +29365,96 @@
   "title": "Pilates Instructors, New York City",
   "company": "Equinox Industries",
   "notified_at": null
+ },
+ "greenhouse:alixpartners:7578088003": {
+  "first_seen": "2026-08-05T19:29:20.662847+00:00",
+  "published_at": "2026-08-05T15:08:49-04:00",
+  "title": "Legal Contract Specialist",
+  "company": "AlixPartners",
+  "notified_at": null
+ },
+ "greenhouse:impact:7676369002": {
+  "first_seen": "2026-08-05T19:29:20.750175+00:00",
+  "published_at": "2026-08-05T13:49:23-04:00",
+  "title": "Customer Solutions Specialist",
+  "company": "Impact Expansion",
+  "notified_at": null
+ },
+ "greenhouse:super:4913200101": {
+  "first_seen": "2026-08-05T19:29:20.831141+00:00",
+  "published_at": "2026-08-05T13:02:29-04:00",
+  "title": "People Operations Specialist – Mobility",
+  "company": "Super Capital",
+  "notified_at": null
+ },
+ "greenhouse:super:4945736101": {
+  "first_seen": "2026-08-05T19:29:20.837538+00:00",
+  "published_at": "2026-08-05T13:45:36-04:00",
+  "title": "Senior Employee Relations Partner",
+  "company": "Super Capital",
+  "notified_at": null
+ },
+ "greenhouse:super:4943333101": {
+  "first_seen": "2026-08-05T19:29:20.837766+00:00",
+  "published_at": "2026-08-05T13:45:36-04:00",
+  "title": "Senior Employee Relations Partner",
+  "company": "Super Capital",
+  "notified_at": null
+ },
+ "greenhouse:super:4945735101": {
+  "first_seen": "2026-08-05T19:29:20.837985+00:00",
+  "published_at": "2026-08-05T13:45:36-04:00",
+  "title": "Senior Employee Relations Partner",
+  "company": "Super Capital",
+  "notified_at": null
+ },
+ "greenhouse:wppmedia:5147457008": {
+  "first_seen": "2026-08-05T19:29:21.066584+00:00",
+  "published_at": "2026-08-05T13:08:18-04:00",
+  "title": "WPP Media: Associate, Media Operations, Egypt",
+  "company": "WPP Media",
+  "notified_at": null
+ },
+ "lever:capital:25723f52-2231-48d4-84a9-1c9788d561b3": {
+  "first_seen": "2026-08-05T19:29:21.071992+00:00",
+  "published_at": "2026-08-05T18:00:10.693000+00:00",
+  "title": "IT Assurance and Compliance Specialist",
+  "company": "Capital Croissance",
+  "notified_at": null
+ },
+ "smartrecruiters:equinox:744000141784468": {
+  "first_seen": "2026-08-05T19:29:21.078457+00:00",
+  "published_at": "2026-08-05T19:12:24.561Z",
+  "title": "Part-Time Flex Coach, Yorkville",
+  "company": "Equinox Industries",
+  "notified_at": null
+ },
+ "smartrecruiters:equinox:744000141783509": {
+  "first_seen": "2026-08-05T19:29:21.078467+00:00",
+  "published_at": "2026-08-05T19:03:00.342Z",
+  "title": "Part-Time Flex Coach, Lincoln Common",
+  "company": "Equinox Industries",
+  "notified_at": null
+ },
+ "smartrecruiters:equinox:744000141783246": {
+  "first_seen": "2026-08-05T19:29:21.078471+00:00",
+  "published_at": "2026-08-05T19:01:19.914Z",
+  "title": "Male Locker Room Associates, Bay Street",
+  "company": "Equinox Industries",
+  "notified_at": null
+ },
+ "smartrecruiters:equinox:744000141778389": {
+  "first_seen": "2026-08-05T19:29:21.078474+00:00",
+  "published_at": "2026-08-05T18:31:22.791Z",
+  "title": "Membership Sales Advisors, Marina Del Rey",
+  "company": "Equinox Industries",
+  "notified_at": null
+ },
+ "smartrecruiters:sia:744000141766878": {
+  "first_seen": "2026-08-05T19:29:21.080453+00:00",
+  "published_at": "2026-08-05T16:56:41.814Z",
+  "title": "Sr. Paid Search & Paid Social Strategist",
+  "company": "Sia Partners",
+  "notified_at": null
  }
 }
