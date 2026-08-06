@@ -29519,5 +29519,19 @@
   "title": "Personal Trainer, Southport",
   "company": "Equinox Industries",
   "notified_at": null
+ },
+ "greenhouse:worldquant:4702147006": {
+  "first_seen": "2026-08-06T02:29:47.368549+00:00",
+  "published_at": "2026-08-05T22:07:48-04:00",
+  "title": "Assistant Portfolio Manager",
+  "company": "WorldQuant",
+  "notified_at": null
+ },
+ "smartrecruiters:equinox:744000141810109": {
+  "first_seen": "2026-08-06T02:29:47.605169+00:00",
+  "published_at": "2026-08-05T22:47:45.439Z",
+  "title": "Front Desk Associates, Scarsdale",
+  "company": "Equinox Industries",
+  "notified_at": null
  }
 }
