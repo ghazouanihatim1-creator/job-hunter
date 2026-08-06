@@ -29533,5 +29533,103 @@
   "title": "Front Desk Associates, Scarsdale",
   "company": "Equinox Industries",
   "notified_at": null
+ },
+ "greenhouse:alixpartners:7825648003": {
+  "first_seen": "2026-08-06T08:34:49.840424+00:00",
+  "published_at": "2026-08-06T04:19:45-04:00",
+  "title": "Consultant - Performance, Singapore",
+  "company": "AlixPartners",
+  "notified_at": null
+ },
+ "greenhouse:super:4851040101": {
+  "first_seen": "2026-08-06T08:34:50.023024+00:00",
+  "published_at": "2026-08-06T03:47:56-04:00",
+  "title": "Junior Sports Quantitative Analyst",
+  "company": "Super Capital",
+  "notified_at": null
+ },
+ "greenhouse:wppmedia:5264014008": {
+  "first_seen": "2026-08-06T08:34:50.101398+00:00",
+  "published_at": "2026-08-06T04:27:29-04:00",
+  "title": "Associate Director, Client Services",
+  "company": "WPP Media",
+  "notified_at": null
+ },
+ "greenhouse:wppmedia:5178543008": {
+  "first_seen": "2026-08-06T08:34:50.115836+00:00",
+  "published_at": "2026-08-06T02:05:17-04:00",
+  "title": "Associate Vice President, Commerce",
+  "company": "WPP Media",
+  "notified_at": null
+ },
+ "greenhouse:wppmedia:5377878008": {
+  "first_seen": "2026-08-06T08:34:50.159323+00:00",
+  "published_at": "2026-08-06T04:18:48-04:00",
+  "title": "Global Planning Manager",
+  "company": "WPP Media",
+  "notified_at": null
+ },
+ "greenhouse:wppmedia:5108622008": {
+  "first_seen": "2026-08-06T08:34:50.173615+00:00",
+  "published_at": "2026-08-06T02:06:41-04:00",
+  "title": "Junior Digital Media Planner",
+  "company": "WPP Media",
+  "notified_at": null
+ },
+ "greenhouse:wppmedia:5366825008": {
+  "first_seen": "2026-08-06T08:34:50.180546+00:00",
+  "published_at": "2026-08-06T03:27:53-04:00",
+  "title": "Manager, Client Services, India",
+  "company": "WPP Media",
+  "notified_at": null
+ },
+ "greenhouse:wppmedia:5267053008": {
+  "first_seen": "2026-08-06T08:34:50.197335+00:00",
+  "published_at": "2026-08-06T02:07:11-04:00",
+  "title": "Manager, Search, Media Delivery and Operations",
+  "company": "WPP Media",
+  "notified_at": null
+ },
+ "greenhouse:wppmedia:5281705008": {
+  "first_seen": "2026-08-06T08:34:50.232016+00:00",
+  "published_at": "2026-08-06T04:00:34-04:00",
+  "title": "Regional Operations Director ",
+  "company": "WPP Media",
+  "notified_at": null
+ },
+ "greenhouse:wppmedia:5267082008": {
+  "first_seen": "2026-08-06T08:34:50.242462+00:00",
+  "published_at": "2026-08-06T02:09:53-04:00",
+  "title": "Senior Associate, Search, Media Delivery and Operations",
+  "company": "WPP Media",
+  "notified_at": null
+ },
+ "greenhouse:wppmedia:5381621008": {
+  "first_seen": "2026-08-06T08:34:50.288261+00:00",
+  "published_at": "2026-08-06T03:50:10-04:00",
+  "title": "Werkstudent Marketing (Mensch) ",
+  "company": "WPP Media",
+  "notified_at": null
+ },
+ "smartrecruiters:coface:744000141866698": {
+  "first_seen": "2026-08-06T08:34:50.303139+00:00",
+  "published_at": "2026-08-06T08:24:22.850Z",
+  "title": "Client Relationship Manager (m|w|d) Factoring in Mainz",
+  "company": "Coface",
+  "notified_at": null
+ },
+ "smartrecruiters:natureo:744000141861769": {
+  "first_seen": "2026-08-06T08:34:50.305586+00:00",
+  "published_at": "2026-08-06T08:02:13.074Z",
+  "title": "Bouchère vendeuse / Boucher vendeur H/F multisite",
+  "company": "Natureo Finance",
+  "notified_at": null
+ },
+ "smartrecruiters:technicatome:744000141861239": {
+  "first_seen": "2026-08-06T08:34:50.306086+00:00",
+  "published_at": "2026-08-06T07:58:44.774Z",
+  "title": "Ingénieur Méthodes Maintenance F/H",
+  "company": "TechnicAtome",
+  "notified_at": null
  }
 }
