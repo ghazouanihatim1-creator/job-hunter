@@ -30394,5 +30394,194 @@
   "title": "GL Accountant with French -  French/Swiss GAAP",
   "company": "Coface",
   "notified_at": null
+ },
+ "greenhouse:forvismazars:4948437101": {
+  "first_seen": "2026-08-07T10:01:16.296803+00:00",
+  "published_at": "2026-08-07T05:05:10-04:00",
+  "title": "Bilanzbuchhalter (all genders)",
+  "company": "Forvis Mazars",
+  "notified_at": null
+ },
+ "greenhouse:forvismazars:4948439101": {
+  "first_seen": "2026-08-07T10:01:16.297772+00:00",
+  "published_at": "2026-08-07T05:11:08-04:00",
+  "title": "Consultant Tax (all genders)",
+  "company": "Forvis Mazars",
+  "notified_at": null
+ },
+ "greenhouse:forvismazars:4948441101": {
+  "first_seen": "2026-08-07T10:01:16.298111+00:00",
+  "published_at": "2026-08-07T05:14:34-04:00",
+  "title": "Diplom Finanzwirt (all genders)",
+  "company": "Forvis Mazars",
+  "notified_at": null
+ },
+ "greenhouse:forvismazars:4948444101": {
+  "first_seen": "2026-08-07T10:01:16.301101+00:00",
+  "published_at": "2026-08-07T05:22:53-04:00",
+  "title": "Lohnbuchhalter (all genders)",
+  "company": "Forvis Mazars",
+  "notified_at": null
+ },
+ "greenhouse:forvismazars:4948445101": {
+  "first_seen": "2026-08-07T10:01:16.302527+00:00",
+  "published_at": "2026-08-07T05:23:59-04:00",
+  "title": "Payroll Manager (all genders)",
+  "company": "Forvis Mazars",
+  "notified_at": null
+ },
+ "greenhouse:forvismazars:4948438101": {
+  "first_seen": "2026-08-07T10:01:16.316471+00:00",
+  "published_at": "2026-08-07T05:06:45-04:00",
+  "title": "Teamlead Accounting French Desk (all genders)",
+  "company": "Forvis Mazars",
+  "notified_at": null
+ },
+ "greenhouse:impact:8690467002": {
+  "first_seen": "2026-08-07T10:01:16.366977+00:00",
+  "published_at": "2026-08-07T05:15:49-04:00",
+  "title": "Customer Solutions Specialist (Technical Support)",
+  "company": "Impact Expansion",
+  "notified_at": null
+ },
+ "greenhouse:janestreet:8690499002": {
+  "first_seen": "2026-08-07T10:01:16.416575+00:00",
+  "published_at": "2026-08-07T05:19:50-04:00",
+  "title": "Data Strategist",
+  "company": "Jane Street",
+  "notified_at": null
+ },
+ "greenhouse:psg:5382780008": {
+  "first_seen": "2026-08-07T10:01:16.443729+00:00",
+  "published_at": "2026-08-07T05:45:12-04:00",
+  "title": "Project Manager - Telecom OSP Engineering (Fiber & Copper Networks)",
+  "company": "PSG Equity",
+  "notified_at": null
+ },
+ "greenhouse:squad:8112103": {
+  "first_seen": "2026-08-07T10:01:16.444281+00:00",
+  "published_at": "2026-08-07T04:03:46-04:00",
+  "title": "Embedded QA Engineer (Connectivity)",
+  "company": "SQUAD Conseil et Expertises",
+  "notified_at": null
+ },
+ "greenhouse:super:4948362101": {
+  "first_seen": "2026-08-07T10:01:16.448089+00:00",
+  "published_at": "2026-08-07T04:08:17-04:00",
+  "title": "Business Process Analyst",
+  "company": "Super Capital",
+  "notified_at": null
+ },
+ "greenhouse:super:4948457101": {
+  "first_seen": "2026-08-07T10:01:16.456826+00:00",
+  "published_at": "2026-08-07T05:36:31-04:00",
+  "title": "Machine Learning Engineer - Applied ML & Research",
+  "company": "Super Capital",
+  "notified_at": null
+ },
+ "greenhouse:wppmedia:5139131008": {
+  "first_seen": "2026-08-07T10:01:16.559961+00:00",
+  "published_at": "2026-08-07T03:28:55-04:00",
+  "title": "Communication Planner",
+  "company": "WPP Media",
+  "notified_at": null
+ },
+ "greenhouse:wppmedia:5142201008": {
+  "first_seen": "2026-08-07T10:01:16.604101+00:00",
+  "published_at": "2026-08-07T06:00:21-04:00",
+  "title": "Junior Financial Controller (Mensch)",
+  "company": "WPP Media",
+  "notified_at": null
+ },
+ "greenhouse:wppmedia:5379162008": {
+  "first_seen": "2026-08-07T10:01:16.633122+00:00",
+  "published_at": "2026-08-07T05:19:00-04:00",
+  "title": "Marketing Manager Retail Media (Mensch) ",
+  "company": "WPP Media",
+  "notified_at": null
+ },
+ "greenhouse:wppmedia:5239978008": {
+  "first_seen": "2026-08-07T10:01:16.670101+00:00",
+  "published_at": "2026-08-07T04:26:04-04:00",
+  "title": "Senior Associate - Planning",
+  "company": "WPP Media",
+  "notified_at": null
+ },
+ "greenhouse:wppmedia:5215567008": {
+  "first_seen": "2026-08-07T10:01:16.698015+00:00",
+  "published_at": "2026-08-07T03:53:06-04:00",
+  "title": "Senior Programmatic Specialist",
+  "company": "WPP Media",
+  "notified_at": null
+ },
+ "greenhouse:wppmedia:5269426008": {
+  "first_seen": "2026-08-07T10:01:16.715063+00:00",
+  "published_at": "2026-08-07T03:43:35-04:00",
+  "title": "Vice President, Integrated Planning, Media Delivery and Operations",
+  "company": "WPP Media",
+  "notified_at": null
+ },
+ "smartrecruiters:believe:744000142093241": {
+  "first_seen": "2026-08-07T10:01:16.731634+00:00",
+  "published_at": "2026-08-07T09:59:03.409Z",
+  "title": "Stage – Assistant·e Media Buyer – Musique & Digital",
+  "company": "Believe",
+  "notified_at": null
+ },
+ "smartrecruiters:magellan:744000142083038": {
+  "first_seen": "2026-08-07T10:01:16.732494+00:00",
+  "published_at": "2026-08-07T08:56:20.690Z",
+  "title": "Consultant en Conduite du Changement M365 et Copilot (H/F)",
+  "company": "Magellan Asset Finance",
+  "notified_at": null
+ },
+ "smartrecruiters:magellan:744000142081019": {
+  "first_seen": "2026-08-07T10:01:16.732500+00:00",
+  "published_at": "2026-08-07T08:55:37.020Z",
+  "title": "Consultant DevOps Azure Senior (H/F)",
+  "company": "Magellan Asset Finance",
+  "notified_at": null
+ },
+ "smartrecruiters:magellan:744000142082553": {
+  "first_seen": "2026-08-07T10:01:16.732504+00:00",
+  "published_at": "2026-08-07T08:54:47.062Z",
+  "title": "Tech Lead .Net & IA (H/F)",
+  "company": "Magellan Asset Finance",
+  "notified_at": null
+ },
+ "smartrecruiters:magellan:744000142082305": {
+  "first_seen": "2026-08-07T10:01:16.732508+00:00",
+  "published_at": "2026-08-07T08:53:27.667Z",
+  "title": "Ingénieur Commercial (H/F)",
+  "company": "Magellan Asset Finance",
+  "notified_at": null
+ },
+ "smartrecruiters:magellan:744000142080095": {
+  "first_seen": "2026-08-07T10:01:16.732513+00:00",
+  "published_at": "2026-08-07T08:52:51.481Z",
+  "title": "Développeur .Net & IA / Azure  (H/F)",
+  "company": "Magellan Asset Finance",
+  "notified_at": null
+ },
+ "smartrecruiters:magellan:744000142079843": {
+  "first_seen": "2026-08-07T10:01:16.732518+00:00",
+  "published_at": "2026-08-07T08:52:20.036Z",
+  "title": "Architecte Data / Avant-Vente (F/H)",
+  "company": "Magellan Asset Finance",
+  "notified_at": null
+ },
+ "smartrecruiters:magellan:744000142081758": {
+  "first_seen": "2026-08-07T10:01:16.732522+00:00",
+  "published_at": "2026-08-07T08:51:35.308Z",
+  "title": "Référent Conduite du Changement Microsoft 365 et Copilot (H/F)",
+  "company": "Magellan Asset Finance",
+  "notified_at": null
+ },
+ "smartrecruiters:sia:744000142069969": {
+  "first_seen": "2026-08-07T10:01:16.734366+00:00",
+  "published_at": "2026-08-07T08:06:36.356Z",
+  "title": "Comptable",
+  "company": "Sia Partners",
+  "notified_at": null
  }
 }
