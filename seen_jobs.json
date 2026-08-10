@@ -31437,5 +31437,110 @@
   "title": "BI Sales Executive Mid-market",
   "company": "Coface",
   "notified_at": null
+ },
+ "greenhouse:alixpartners:7848183003": {
+  "first_seen": "2026-08-10T13:06:12.294846+00:00",
+  "published_at": "2026-08-10T09:04:15-04:00",
+  "title": "Legal Contract Specialist",
+  "company": "AlixPartners",
+  "notified_at": null
+ },
+ "greenhouse:inter:4719906005": {
+  "first_seen": "2026-08-10T13:06:12.395009+00:00",
+  "published_at": "2026-08-10T07:51:21-04:00",
+  "title": "BENEFITS ANALYST II",
+  "company": "Inter Invest Capital",
+  "notified_at": null
+ },
+ "greenhouse:williamblair:5191969007": {
+  "first_seen": "2026-08-10T13:06:12.470311+00:00",
+  "published_at": "2026-08-10T08:41:47-04:00",
+  "title": "Investment Banking Analyst, Private Capital Markets",
+  "company": "William Blair France",
+  "notified_at": null
+ },
+ "greenhouse:wppmedia:5382542008": {
+  "first_seen": "2026-08-10T13:06:12.486196+00:00",
+  "published_at": "2026-08-10T07:39:06-04:00",
+  "title": "Account Manager, Commerce",
+  "company": "WPP Media",
+  "notified_at": null
+ },
+ "greenhouse:wppmedia:5363960008": {
+  "first_seen": "2026-08-10T13:06:12.536533+00:00",
+  "published_at": "2026-08-10T07:31:41-04:00",
+  "title": "Director, Data Strategy",
+  "company": "WPP Media",
+  "notified_at": null
+ },
+ "greenhouse:wppmedia:5384164008": {
+  "first_seen": "2026-08-10T13:06:12.592096+00:00",
+  "published_at": "2026-08-10T07:14:19-04:00",
+  "title": "Mindshare: Media Manager - Beirut",
+  "company": "WPP Media",
+  "notified_at": null
+ },
+ "greenhouse:wppmedia:5384295008": {
+  "first_seen": "2026-08-10T13:06:12.598737+00:00",
+  "published_at": "2026-08-10T08:46:49-04:00",
+  "title": "Pessoa Analista de Desenvolvimento e Automação (Python/JavaScript)",
+  "company": "WPP Media",
+  "notified_at": null
+ },
+ "smartrecruiters:coface:744000142636029": {
+  "first_seen": "2026-08-10T13:06:12.664043+00:00",
+  "published_at": "2026-08-10T12:48:34.122Z",
+  "title": "Sales Manager - Debt Collection Services",
+  "company": "Coface",
+  "notified_at": null
+ },
+ "smartrecruiters:coface:744000142626638": {
+  "first_seen": "2026-08-10T13:06:12.664055+00:00",
+  "published_at": "2026-08-10T12:06:27.465Z",
+  "title": "Sales Manager (m|w|d) Direktgeschäft für die Region Abenberg",
+  "company": "Coface",
+  "notified_at": null
+ },
+ "smartrecruiters:coface:744000142626319": {
+  "first_seen": "2026-08-10T13:06:12.664062+00:00",
+  "published_at": "2026-08-10T12:06:12.038Z",
+  "title": "Sales Manager (m|w|d) Direktgeschäft für die Region Dingolfing",
+  "company": "Coface",
+  "notified_at": null
+ },
+ "smartrecruiters:coface:744000142623809": {
+  "first_seen": "2026-08-10T13:06:12.664067+00:00",
+  "published_at": "2026-08-10T12:05:43.681Z",
+  "title": "Sales Manager (m|w|d) Direktgeschäft für die Region Landshut",
+  "company": "Coface",
+  "notified_at": null
+ },
+ "smartrecruiters:coface:744000142626203": {
+  "first_seen": "2026-08-10T13:06:12.664071+00:00",
+  "published_at": "2026-08-10T12:05:22.908Z",
+  "title": "Sales Manager (m|w|d) Direktgeschäft für die Region München",
+  "company": "Coface",
+  "notified_at": null
+ },
+ "smartrecruiters:coface:744000142624134": {
+  "first_seen": "2026-08-10T13:06:12.664076+00:00",
+  "published_at": "2026-08-10T12:04:46.739Z",
+  "title": "Sales Manager (m|w|d) Direktgeschäft in der Region Süddeutschland",
+  "company": "Coface",
+  "notified_at": null
+ },
+ "smartrecruiters:evelynpartners:744000142633862": {
+  "first_seen": "2026-08-10T13:06:12.664500+00:00",
+  "published_at": "2026-08-10T12:40:27.596Z",
+  "title": "Service Desk Analyst",
+  "company": "Evelyn Partners",
+  "notified_at": null
+ },
+ "smartrecruiters:natureo:744000142626869": {
+  "first_seen": "2026-08-10T13:06:12.666058+00:00",
+  "published_at": "2026-08-10T12:07:59.933Z",
+  "title": "Assistant formation en stage H/F",
+  "company": "Natureo Finance",
+  "notified_at": null
  }
 }
