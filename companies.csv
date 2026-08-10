@@ -383,12 +383,12 @@ Citigroup Paris,Banque d'investissement (BB/CIB),,,,,normale,Candidatures sponta
 Citizen Capital,Fonds PE / VC (mid),,,,,normale,Candidatures spontanées.xlsx,active
 City Star Industry Investment,Fonds PE / VC (mid),,,,,normale,Candidatures spontanées.xlsx,active
 Clairfield International,Boutique M&A mid-market,,,,,normale,Candidatures spontanées.xlsx;Tracker_Candidatures_Corporate_Finance.xlsx,active
-Clearwater,Advisory / TS / Valuation (grand),,,,,normale,Candidatures spontanées.xlsx,active
-Clearwater - France,Advisory / TS / Valuation (grand),,,,,normale,Candidatures spontanées.xlsx,active
-Clearwater Debt Advisory,Debt Advisory,,,,,normale,Candidatures spontanées.xlsx,active
-Clearwater France - Belgium,Advisory / TS / Valuation (grand),,,,,normale,Candidatures spontanées.xlsx,active
-Clearwater International,Boutique M&A élite,,,,,normale,Candidatures spontanées.xlsx,active
-Clearwater International France,M&A,,,,,normale,Tracker_Candidatures_Corporate_Finance.xlsx,active
+Clearwater,Advisory / TS / Valuation (grand),,,greenhouse,clearwater,normale,Candidatures spontanées.xlsx,active
+Clearwater - France,Advisory / TS / Valuation (grand),,,greenhouse,clearwater,normale,Candidatures spontanées.xlsx,active
+Clearwater Debt Advisory,Debt Advisory,,,greenhouse,clearwater,normale,Candidatures spontanées.xlsx,active
+Clearwater France - Belgium,Advisory / TS / Valuation (grand),,,greenhouse,clearwater,normale,Candidatures spontanées.xlsx,active
+Clearwater International,Boutique M&A élite,,,greenhouse,clearwater,normale,Candidatures spontanées.xlsx,active
+Clearwater International France,M&A,,,greenhouse,clearwater,normale,Tracker_Candidatures_Corporate_Finance.xlsx,active
 Climb,Autre,,,,,normale,Tracker_Candidatures_Corporate_Finance.xlsx,active
 Clipperton,Boutique M&A élite,,,,,normale,Candidatures spontanées.xlsx;Tracker_Candidatures_Corporate_Finance.xlsx,active
 CM International,Conseil stratégie / management,,,,,normale,Candidatures spontanées.xlsx,active
@@ -428,7 +428,7 @@ Crowe HAF,Audit / Expertise (+ CF),,,,,normale,Candidatures spontanées.xlsx,act
 Crédit Agricole Assurances,Private Equity,,,,,normale,Tracker_Candidatures_Corporate_Finance.xlsx,active
 Crédit Agricole Brie Picardie,Banque,,,,,normale,Tracker_Candidatures_Corporate_Finance.xlsx,active
 Crédit Agricole Centre-est,,,,,,normale,Tracker_Candidatures_Corporate_Finance.xlsx,active
-Crédit Agricole CIB,Banque d'investissement (BB/CIB),,,,,normale,Candidatures spontanées.xlsx;Tracker_Candidatures_Corporate_Finance.xlsx,active
+Crédit Agricole CIB,Banque d'investissement (BB/CIB),,,greenhouse,creditagricolecib,normale,Candidatures spontanées.xlsx;Tracker_Candidatures_Corporate_Finance.xlsx,active
 Crédit Agricole CIB (M&A),Investment Banking,,,,,normale,Tracker_Candidatures_Corporate_Finance.xlsx,active
 Crédit Agricole Debt Advisory,Debt Advisory,,,,,normale,Candidatures spontanées.xlsx,active
 Crédit Agricole Midcap Advisors,Boutique M&A mid-market,,,,,normale,Candidatures spontanées.xlsx;Tracker_Candidatures_Corporate_Finance.xlsx,active
