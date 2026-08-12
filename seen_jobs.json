@@ -32697,5 +32697,26 @@
   "title": "Senior Vice President, Commerce",
   "company": "WPP Media",
   "notified_at": null
+ },
+ "greenhouse:wppmedia:5235364008": {
+  "first_seen": "2026-08-12T07:23:43.408645+00:00",
+  "published_at": "2026-08-12T01:26:55-04:00",
+  "title": "Manager Affiliate",
+  "company": "WPP Media",
+  "notified_at": null
+ },
+ "smartrecruiters:coface:744000143027329": {
+  "first_seen": "2026-08-12T07:23:43.508013+00:00",
+  "published_at": "2026-08-12T05:22:58.833Z",
+  "title": "GL Accountant with French",
+  "company": "Coface",
+  "notified_at": null
+ },
+ "smartrecruiters:coface:744000143027269": {
+  "first_seen": "2026-08-12T07:23:43.508027+00:00",
+  "published_at": "2026-08-12T05:22:36.968Z",
+  "title": "Telesales Specialist with German (2-year fixed-term contract)",
+  "company": "Coface",
+  "notified_at": null
  }
 }
