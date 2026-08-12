@@ -32837,5 +32837,166 @@
   "title": "CDD - Technicien développement analytique F/H",
   "company": "Vetoquinol Global",
   "notified_at": null
+ },
+ "greenhouse:impact:8547200002": {
+  "first_seen": "2026-08-12T13:07:11.137467+00:00",
+  "published_at": "2026-08-12T07:04:29-04:00",
+  "title": "Associate Platform Infrastructure Engineer",
+  "company": "Impact Expansion",
+  "notified_at": null
+ },
+ "greenhouse:impact:8554724002": {
+  "first_seen": "2026-08-12T13:07:11.147576+00:00",
+  "published_at": "2026-08-12T06:18:18-04:00",
+  "title": "Senior Platform Engineer",
+  "company": "Impact Expansion",
+  "notified_at": null
+ },
+ "greenhouse:impact:8554711002": {
+  "first_seen": "2026-08-12T13:07:11.147743+00:00",
+  "published_at": "2026-08-12T06:04:23-04:00",
+  "title": "Senior Platform Engineer (Developer Experience)",
+  "company": "Impact Expansion",
+  "notified_at": null
+ },
+ "greenhouse:janestreet:8675537002": {
+  "first_seen": "2026-08-12T13:07:11.201602+00:00",
+  "published_at": "2026-08-12T07:44:52-04:00",
+  "title": "Unified Communications Engineer",
+  "company": "Jane Street",
+  "notified_at": null
+ },
+ "greenhouse:teneo:7854356003": {
+  "first_seen": "2026-08-12T13:07:11.253951+00:00",
+  "published_at": "2026-08-12T07:43:44-04:00",
+  "title": "Accountant",
+  "company": "Teneo",
+  "notified_at": null
+ },
+ "greenhouse:wppmedia:5387119008": {
+  "first_seen": "2026-08-12T13:07:11.386316+00:00",
+  "published_at": "2026-08-12T06:45:37-04:00",
+  "title": "Junior Financial Assistant",
+  "company": "WPP Media",
+  "notified_at": null
+ },
+ "greenhouse:wppmedia:5387212008": {
+  "first_seen": "2026-08-12T13:07:11.386656+00:00",
+  "published_at": "2026-08-12T09:00:35-04:00",
+  "title": "Junior Manager Online Marketing (Mensch)",
+  "company": "WPP Media",
+  "notified_at": null
+ },
+ "greenhouse:wppmedia:5269869008": {
+  "first_seen": "2026-08-12T13:07:11.408986+00:00",
+  "published_at": "2026-08-12T06:27:00-04:00",
+  "title": "Manager, Reservation Buying, Media Delivery and Operations",
+  "company": "WPP Media",
+  "notified_at": null
+ },
+ "greenhouse:wppmedia:5387174008": {
+  "first_seen": "2026-08-12T13:07:11.429182+00:00",
+  "published_at": "2026-08-12T08:31:41-04:00",
+  "title": "Paid Social Performance Manager (Mensch)",
+  "company": "WPP Media",
+  "notified_at": null
+ },
+ "greenhouse:wppmedia:5387168008": {
+  "first_seen": "2026-08-12T13:07:11.456572+00:00",
+  "published_at": "2026-08-12T08:28:08-04:00",
+  "title": "Senior Concept & Strategy (Mensch) ",
+  "company": "WPP Media",
+  "notified_at": null
+ },
+ "greenhouse:wppmedia:5387151008": {
+  "first_seen": "2026-08-12T13:07:11.481463+00:00",
+  "published_at": "2026-08-12T08:11:09-04:00",
+  "title": "Senior SEA Specialist",
+  "company": "WPP Media",
+  "notified_at": null
+ },
+ "greenhouse:wppmedia:5379163008": {
+  "first_seen": "2026-08-12T13:07:11.500001+00:00",
+  "published_at": "2026-08-12T08:05:46-04:00",
+  "title": "VP, Clients (FTC)",
+  "company": "WPP Media",
+  "notified_at": null
+ },
+ "greenhouse:wppmedia:5181167008": {
+  "first_seen": "2026-08-12T13:07:11.500706+00:00",
+  "published_at": "2026-08-12T06:50:32-04:00",
+  "title": "VP Excellence & Engineering (12 month FTC)",
+  "company": "WPP Media",
+  "notified_at": null
+ },
+ "greenhouse:wppmedia:5387209008": {
+  "first_seen": "2026-08-12T13:07:11.507752+00:00",
+  "published_at": "2026-08-12T09:00:53-04:00",
+  "title": "WPP Media: Senior Associate, Performance, Lebanon",
+  "company": "WPP Media",
+  "notified_at": null
+ },
+ "smartrecruiters:coface:744000143085339": {
+  "first_seen": "2026-08-12T13:07:11.517053+00:00",
+  "published_at": "2026-08-12T11:48:42.623Z",
+  "title": "BI Sales Executive Mid-market",
+  "company": "Coface",
+  "notified_at": null
+ },
+ "smartrecruiters:coface:744000143084899": {
+  "first_seen": "2026-08-12T13:07:11.517061+00:00",
+  "published_at": "2026-08-12T11:46:56.943Z",
+  "title": "Sales representative Debt Collection ",
+  "company": "Coface",
+  "notified_at": null
+ },
+ "smartrecruiters:sia:744000143093730": {
+  "first_seen": "2026-08-12T13:07:11.519601+00:00",
+  "published_at": "2026-08-12T12:34:39.866Z",
+  "title": "Senior Consultant in Financial Services",
+  "company": "Sia Partners",
+  "notified_at": null
+ },
+ "smartrecruiters:sia:744000143092930": {
+  "first_seen": "2026-08-12T13:07:11.519607+00:00",
+  "published_at": "2026-08-12T12:33:59.235Z",
+  "title": "Consultant(e) Services Financiers",
+  "company": "Sia Partners",
+  "notified_at": null
+ },
+ "smartrecruiters:sia:744000143093390": {
+  "first_seen": "2026-08-12T13:07:11.519611+00:00",
+  "published_at": "2026-08-12T12:33:07.854Z",
+  "title": "Senior Consultant in Financial Services",
+  "company": "Sia Partners",
+  "notified_at": null
+ },
+ "smartrecruiters:sia:744000143093029": {
+  "first_seen": "2026-08-12T13:07:11.519616+00:00",
+  "published_at": "2026-08-12T12:29:35.565Z",
+  "title": "Senior Consultant Financial Services - Risk & Regulatory",
+  "company": "Sia Partners",
+  "notified_at": null
+ },
+ "smartrecruiters:sia:744000143090239": {
+  "first_seen": "2026-08-12T13:07:11.519620+00:00",
+  "published_at": "2026-08-12T12:14:33.196Z",
+  "title": "Machine learning Engineer",
+  "company": "Sia Partners",
+  "notified_at": null
+ },
+ "smartrecruiters:sia:744000143087849": {
+  "first_seen": "2026-08-12T13:07:11.519624+00:00",
+  "published_at": "2026-08-12T12:00:17.988Z",
+  "title": "Senior Data Science Consultant",
+  "company": "Sia Partners",
+  "notified_at": null
+ },
+ "smartrecruiters:sia:744000143085375": {
+  "first_seen": "2026-08-12T13:07:11.519628+00:00",
+  "published_at": "2026-08-12T11:59:25.637Z",
+  "title": "Senior Data Science Consultant",
+  "company": "Sia Partners",
+  "notified_at": null
  }
 }
