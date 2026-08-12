@@ -33285,5 +33285,68 @@
   "title": "Cycling Instructors, Palo Alto",
   "company": "Equinox Industries",
   "notified_at": null
+ },
+ "greenhouse:enova:8126459": {
+  "first_seen": "2026-08-12T21:43:40.191424+00:00",
+  "published_at": "2026-08-12T15:45:31-04:00",
+  "title": "Assistant General Counsel (Hybrid)",
+  "company": "Enova Partenaires",
+  "notified_at": null
+ },
+ "greenhouse:generalatlantic:6142458004": {
+  "first_seen": "2026-08-12T21:43:40.253634+00:00",
+  "published_at": "2026-08-12T16:51:34-04:00",
+  "title": "Executive Assistant, Information Technology ",
+  "company": "General Atlantic",
+  "notified_at": null
+ },
+ "greenhouse:inter:4705970005": {
+  "first_seen": "2026-08-12T21:43:40.294321+00:00",
+  "published_at": "2026-08-12T16:19:18-04:00",
+  "title": "CUSTOMER ADVISOR ANALYST PLENO",
+  "company": "Inter Invest Capital",
+  "notified_at": null
+ },
+ "greenhouse:lincolninternational:8126656": {
+  "first_seen": "2026-08-12T21:43:40.326399+00:00",
+  "published_at": "2026-08-12T16:13:12-04:00",
+  "title": "Associate, Industrials M&A",
+  "company": "Lincoln International",
+  "notified_at": null
+ },
+ "greenhouse:wppmedia:5382912008": {
+  "first_seen": "2026-08-12T21:43:40.494596+00:00",
+  "published_at": "2026-08-12T15:51:22-04:00",
+  "title": "Implementation Planning Senior Executive, GOC",
+  "company": "WPP Media",
+  "notified_at": null
+ },
+ "greenhouse:wppmedia:5279001008": {
+  "first_seen": "2026-08-12T21:43:40.563884+00:00",
+  "published_at": "2026-08-12T15:44:42-04:00",
+  "title": "Senior Campaign Coordinator",
+  "company": "WPP Media",
+  "notified_at": null
+ },
+ "smartrecruiters:equinox:744000143182269": {
+  "first_seen": "2026-08-12T21:43:40.622583+00:00",
+  "published_at": "2026-08-12T21:12:39.735Z",
+  "title": "Style Advisor, Midtown Manhattan",
+  "company": "Equinox Industries",
+  "notified_at": null
+ },
+ "smartrecruiters:equinox:744000143177419": {
+  "first_seen": "2026-08-12T21:43:40.622596+00:00",
+  "published_at": "2026-08-12T20:23:46.434Z",
+  "title": "Front Desk Associates, Houston",
+  "company": "Equinox Industries",
+  "notified_at": null
+ },
+ "smartrecruiters:equinox:744000143172070": {
+  "first_seen": "2026-08-12T21:43:40.622615+00:00",
+  "published_at": "2026-08-12T19:45:26.892Z",
+  "title": "Membership Sales Advisors, Seattle",
+  "company": "Equinox Industries",
+  "notified_at": null
  }
 }
