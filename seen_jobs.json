@@ -32718,5 +32718,124 @@
   "title": "Telesales Specialist with German (2-year fixed-term contract)",
   "company": "Coface",
   "notified_at": null
+ },
+ "greenhouse:forvismazars:4901234101": {
+  "first_seen": "2026-08-12T10:03:45.509338+00:00",
+  "published_at": "2026-08-12T04:21:06-04:00",
+  "title": "SAP-BTP Manager (all genders)",
+  "company": "Forvis Mazars",
+  "notified_at": null
+ },
+ "greenhouse:wppmedia:5380456008": {
+  "first_seen": "2026-08-12T10:03:45.727397+00:00",
+  "published_at": "2026-08-12T04:03:29-04:00",
+  "title": "Activation Manager",
+  "company": "WPP Media",
+  "notified_at": null
+ },
+ "greenhouse:wppmedia:5387076008": {
+  "first_seen": "2026-08-12T10:03:45.778447+00:00",
+  "published_at": "2026-08-12T03:28:33-04:00",
+  "title": "Digital Media Planner",
+  "company": "WPP Media",
+  "notified_at": null
+ },
+ "greenhouse:wppmedia:5075329008": {
+  "first_seen": "2026-08-12T10:03:45.793527+00:00",
+  "published_at": "2026-08-12T05:43:54-04:00",
+  "title": "Executive - Implementation Planning",
+  "company": "WPP Media",
+  "notified_at": null
+ },
+ "greenhouse:wppmedia:5343723008": {
+  "first_seen": "2026-08-12T10:03:45.800666+00:00",
+  "published_at": "2026-08-12T05:51:50-04:00",
+  "title": "GOC I Programmatic Specialist",
+  "company": "WPP Media",
+  "notified_at": null
+ },
+ "greenhouse:wppmedia:5384179008": {
+  "first_seen": "2026-08-12T10:03:45.808557+00:00",
+  "published_at": "2026-08-12T05:47:32-04:00",
+  "title": "Implementation Planning - Manager",
+  "company": "WPP Media",
+  "notified_at": null
+ },
+ "greenhouse:wppmedia:5314500008": {
+  "first_seen": "2026-08-12T10:03:45.885807+00:00",
+  "published_at": "2026-08-12T05:43:29-04:00",
+  "title": "Senior Executive - Implementation Planning",
+  "company": "WPP Media",
+  "notified_at": null
+ },
+ "greenhouse:wppmedia:5384262008": {
+  "first_seen": "2026-08-12T10:03:45.887922+00:00",
+  "published_at": "2026-08-12T05:55:13-04:00",
+  "title": "Senior Executive - Paid Social",
+  "company": "WPP Media",
+  "notified_at": null
+ },
+ "greenhouse:wppmedia:5202959008": {
+  "first_seen": "2026-08-12T10:03:45.895552+00:00",
+  "published_at": "2026-08-12T05:41:43-04:00",
+  "title": "Senior Manager - Implementation Planning",
+  "company": "WPP Media",
+  "notified_at": null
+ },
+ "lever:capital:c752f7ea-c514-4e0d-a9d3-4a01dc63afdb": {
+  "first_seen": "2026-08-12T10:03:45.929552+00:00",
+  "published_at": "2026-08-12T06:53:15.885000+00:00",
+  "title": "People Operations Specialist (Bulgaria)",
+  "company": "Capital Croissance",
+  "notified_at": null
+ },
+ "lever:capital:ecf78211-861b-496b-a6fd-5d8f6a8888fe": {
+  "first_seen": "2026-08-12T10:03:45.929705+00:00",
+  "published_at": "2026-08-12T08:02:48.127000+00:00",
+  "title": "Senior Recruiter",
+  "company": "Capital Croissance",
+  "notified_at": null
+ },
+ "lever:capital:6952ab80-1956-4604-bb49-fcbe058f999d": {
+  "first_seen": "2026-08-12T10:03:45.929730+00:00",
+  "published_at": "2025-06-12T10:20:11.171000+00:00",
+  "title": "Senior Technical Recruiter",
+  "company": "Capital Croissance",
+  "notified_at": null
+ },
+ "smartrecruiters:coface:744000143058839": {
+  "first_seen": "2026-08-12T10:03:45.936380+00:00",
+  "published_at": "2026-08-12T09:06:03.776Z",
+  "title": "Inside Sales Officer",
+  "company": "Coface",
+  "notified_at": null
+ },
+ "smartrecruiters:evelynpartners:744000143065679": {
+  "first_seen": "2026-08-12T10:03:45.936872+00:00",
+  "published_at": "2026-08-12T09:43:35.431Z",
+  "title": "Wealth Platform Support Analyst",
+  "company": "Evelyn Partners",
+  "notified_at": null
+ },
+ "smartrecruiters:evelynpartners:744000143065109": {
+  "first_seen": "2026-08-12T10:03:45.936878+00:00",
+  "published_at": "2026-08-12T09:40:36.032Z",
+  "title": "Wealth Platform Support Analyst",
+  "company": "Evelyn Partners",
+  "notified_at": null
+ },
+ "smartrecruiters:technicatome:744000143054209": {
+  "first_seen": "2026-08-12T10:03:45.939223+00:00",
+  "published_at": "2026-08-12T08:44:04.898Z",
+  "title": "Ingénieur calcul de tuyauteries et de supportages F/H",
+  "company": "TechnicAtome",
+  "notified_at": null
+ },
+ "smartrecruiters:vetoquinol:744000143041019": {
+  "first_seen": "2026-08-12T10:03:45.939450+00:00",
+  "published_at": "2026-08-12T07:29:45.525Z",
+  "title": "CDD - Technicien développement analytique F/H",
+  "company": "Vetoquinol Global",
+  "notified_at": null
  }
 }
