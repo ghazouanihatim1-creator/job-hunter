@@ -34566,5 +34566,110 @@
   "title": "Employée polyvalente / Employé polyvalent H/F",
   "company": "Natureo Finance",
   "notified_at": null
+ },
+ "greenhouse:impact:8630774002": {
+  "first_seen": "2026-08-14T15:51:07.906748+00:00",
+  "published_at": "2026-08-14T11:16:37-04:00",
+  "title": "Business Operations Analyst",
+  "company": "Impact Expansion",
+  "notified_at": null
+ },
+ "greenhouse:wppmedia:5378982008": {
+  "first_seen": "2026-08-14T15:51:08.077756+00:00",
+  "published_at": "2026-08-14T09:27:08-04:00",
+  "title": "Associate, Digital Operations - OOH",
+  "company": "WPP Media",
+  "notified_at": null
+ },
+ "greenhouse:wppmedia:5252026008": {
+  "first_seen": "2026-08-14T15:51:08.083755+00:00",
+  "published_at": "2026-08-14T10:50:35-04:00",
+  "title": "Associate Director, Media Planning",
+  "company": "WPP Media",
+  "notified_at": null
+ },
+ "greenhouse:wppmedia:5390322008": {
+  "first_seen": "2026-08-14T15:51:08.189449+00:00",
+  "published_at": "2026-08-14T11:20:37-04:00",
+  "title": "Media Director",
+  "company": "WPP Media",
+  "notified_at": null
+ },
+ "lever:kepler:56f93fa0-89f0-4c4f-bb5a-999a9c01d94d": {
+  "first_seen": "2026-08-14T15:51:08.288256+00:00",
+  "published_at": "2026-08-14T14:07:26.414000+00:00",
+  "title": "Program Chief Engineer",
+  "company": "Kepler Cheuvreux",
+  "notified_at": null
+ },
+ "smartrecruiters:coface:744000143539979": {
+  "first_seen": "2026-08-14T15:51:08.290578+00:00",
+  "published_at": "2026-08-14T14:59:27.816Z",
+  "title": "Inside Sales Officer",
+  "company": "Coface",
+  "notified_at": null
+ },
+ "smartrecruiters:coface:744000143522054": {
+  "first_seen": "2026-08-14T15:51:08.290585+00:00",
+  "published_at": "2026-08-14T13:55:48.312Z",
+  "title": "Sales Representative - Debt Collection Services",
+  "company": "Coface",
+  "notified_at": null
+ },
+ "smartrecruiters:equinox:744000143531149": {
+  "first_seen": "2026-08-14T15:51:08.290904+00:00",
+  "published_at": "2026-08-14T14:19:52.830Z",
+  "title": "Front Desk Associate, Lincoln Common",
+  "company": "Equinox Industries",
+  "notified_at": null
+ },
+ "smartrecruiters:equinox:744000143521942": {
+  "first_seen": "2026-08-14T15:51:08.290910+00:00",
+  "published_at": "2026-08-14T14:01:26.730Z",
+  "title": "Front Desk Associates, Rockefeller Center",
+  "company": "Equinox Industries",
+  "notified_at": null
+ },
+ "smartrecruiters:natureo:744000143539589": {
+  "first_seen": "2026-08-14T15:51:08.292990+00:00",
+  "published_at": "2026-08-14T14:58:30.337Z",
+  "title": "Bouchère vendeuse / Boucher vendeur H/F",
+  "company": "Natureo Finance",
+  "notified_at": null
+ },
+ "smartrecruiters:technicatome:744000143527282": {
+  "first_seen": "2026-08-14T15:51:08.293497+00:00",
+  "published_at": "2026-08-14T14:09:17.729Z",
+  "title": "Inspecteur des réalisations F/H",
+  "company": "TechnicAtome",
+  "notified_at": null
+ },
+ "smartrecruiters:technicatome:744000143527513": {
+  "first_seen": "2026-08-14T15:51:08.293505+00:00",
+  "published_at": "2026-08-14T14:08:46.746Z",
+  "title": "Responsable des inspecteurs des réalisations du domaine électricité F/H",
+  "company": "TechnicAtome",
+  "notified_at": null
+ },
+ "smartrecruiters:technicatome:744000143522084": {
+  "first_seen": "2026-08-14T15:51:08.293511+00:00",
+  "published_at": "2026-08-14T13:57:40.845Z",
+  "title": "Responsable technique du pôle méthode et préparation des inspections F/H",
+  "company": "TechnicAtome",
+  "notified_at": null
+ },
+ "smartrecruiters:technicatome:744000143522104": {
+  "first_seen": "2026-08-14T15:51:08.293516+00:00",
+  "published_at": "2026-08-14T13:53:21.051Z",
+  "title": "Ingénieur génie électrique installations nucléaires - confirmé F/H",
+  "company": "TechnicAtome",
+  "notified_at": null
+ },
+ "smartrecruiters:technicatome:744000143520867": {
+  "first_seen": "2026-08-14T15:51:08.293522+00:00",
+  "published_at": "2026-08-14T13:45:50.470Z",
+  "title": "Responsable des inspecteurs des réalisations du domaine électricité F/H",
+  "company": "TechnicAtome",
+  "notified_at": null
  }
 }
