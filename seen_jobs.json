@@ -35343,5 +35343,47 @@
   "title": "Technicien support informatique  – N1/N2",
   "company": "Sia Partners",
   "notified_at": null
+ },
+ "greenhouse:inter:4685260005": {
+  "first_seen": "2026-08-17T18:37:59.095779+00:00",
+  "published_at": "2026-08-17T12:30:11-04:00",
+  "title": "RISK ANALYST III",
+  "company": "Inter Invest Capital",
+  "notified_at": null
+ },
+ "greenhouse:inter:4710840005": {
+  "first_seen": "2026-08-17T18:37:59.098396+00:00",
+  "published_at": "2026-08-17T14:05:07-04:00",
+  "title": "TECHNOLOGY COORDINATOR",
+  "company": "Inter Invest Capital",
+  "notified_at": null
+ },
+ "smartrecruiters:equinox:744000143884946": {
+  "first_seen": "2026-08-17T18:37:59.424056+00:00",
+  "published_at": "2026-08-17T16:45:15.688Z",
+  "title": "Women's Housekeeping Associate, Bloomfield Hills",
+  "company": "Equinox Industries",
+  "notified_at": null
+ },
+ "smartrecruiters:equinox:744000143885195": {
+  "first_seen": "2026-08-17T18:37:59.424071+00:00",
+  "published_at": "2026-08-17T16:44:06.478Z",
+  "title": "Housekeeping Associates, Bloomfield Hills",
+  "company": "Equinox Industries",
+  "notified_at": null
+ },
+ "smartrecruiters:equinox:744000143875175": {
+  "first_seen": "2026-08-17T18:37:59.424077+00:00",
+  "published_at": "2026-08-17T15:58:48.997Z",
+  "title": "Maintenance Associates, East 43rd Street",
+  "company": "Equinox Industries",
+  "notified_at": null
+ },
+ "smartrecruiters:sia:744000143869919": {
+  "first_seen": "2026-08-17T18:37:59.426280+00:00",
+  "published_at": "2026-08-17T15:25:32.458Z",
+  "title": "Senior Consultant - Capital Markets Post-Trade Operations",
+  "company": "Sia Partners",
+  "notified_at": null
  }
 }
