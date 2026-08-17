@@ -34881,5 +34881,61 @@
   "title": "IT Operations Engineer",
   "company": "Jane Street",
   "notified_at": null
+ },
+ "greenhouse:blackwell:5389342008": {
+  "first_seen": "2026-08-17T06:53:32.512257+00:00",
+  "published_at": "2026-08-13T15:43:55-04:00",
+  "title": "Journeyman Electrician",
+  "company": "Blackwell Family Office",
+  "notified_at": null
+ },
+ "greenhouse:boston:8706878002": {
+  "first_seen": "2026-08-17T06:53:32.512290+00:00",
+  "published_at": "2026-08-13T14:27:18-04:00",
+  "title": "Veterinarian",
+  "company": "Boston Consulting Group",
+  "notified_at": null
+ },
+ "smartrecruiters:coface:744000143750529": {
+  "first_seen": "2026-08-17T06:53:32.869605+00:00",
+  "published_at": "2026-08-17T06:30:14.512Z",
+  "title": "GL Accountant with French",
+  "company": "Coface",
+  "notified_at": null
+ },
+ "smartrecruiters:coface:744000143750469": {
+  "first_seen": "2026-08-17T06:53:32.869618+00:00",
+  "published_at": "2026-08-17T06:29:59.383Z",
+  "title": "Telesales Specialist with German (2-year fixed-term contract)",
+  "company": "Coface",
+  "notified_at": null
+ },
+ "smartrecruiters:sia:744000143747669": {
+  "first_seen": "2026-08-17T06:53:32.871590+00:00",
+  "published_at": "2026-08-17T06:14:53.296Z",
+  "title": "Senior Backend Engineer (Python)",
+  "company": "Sia Partners",
+  "notified_at": null
+ },
+ "smartrecruiters:sia:744000143747150": {
+  "first_seen": "2026-08-17T06:53:32.871602+00:00",
+  "published_at": "2026-08-17T06:14:00.578Z",
+  "title": "Staff Software Engineer (Node.js & TypeScript)",
+  "company": "Sia Partners",
+  "notified_at": null
+ },
+ "smartrecruiters:sia:744000143747489": {
+  "first_seen": "2026-08-17T06:53:32.871607+00:00",
+  "published_at": "2026-08-17T06:13:23.425Z",
+  "title": "Engineering Manager - Product (Python)",
+  "company": "Sia Partners",
+  "notified_at": null
+ },
+ "smartrecruiters:sia:744000143747440": {
+  "first_seen": "2026-08-17T06:53:32.871611+00:00",
+  "published_at": "2026-08-17T06:12:47.172Z",
+  "title": "Staff Software Engineer (Python)",
+  "company": "Sia Partners",
+  "notified_at": null
  }
 }
