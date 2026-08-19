@@ -36323,5 +36323,82 @@
   "title": "Studio Crew, Ardmore - SoulCycle",
   "company": "Equinox Industries",
   "notified_at": null
+ },
+ "greenhouse:clearwater:4367239009": {
+  "first_seen": "2026-08-19T01:11:26.096979+00:00",
+  "published_at": "2026-08-18T20:51:27-04:00",
+  "title": "Account Executive",
+  "company": "Clearwater",
+  "notified_at": null
+ },
+ "greenhouse:impact:8728538002": {
+  "first_seen": "2026-08-19T01:11:26.171164+00:00",
+  "published_at": "2026-08-18T18:32:13-04:00",
+  "title": "Creator Solutions Account Manager ",
+  "company": "Impact Expansion",
+  "notified_at": null
+ },
+ "greenhouse:inter:4721885005": {
+  "first_seen": "2026-08-19T01:11:26.204549+00:00",
+  "published_at": "2026-08-18T17:42:34-04:00",
+  "title": "DATA ENGINEER III",
+  "company": "Inter Invest Capital",
+  "notified_at": null
+ },
+ "greenhouse:wppmedia:5373650008": {
+  "first_seen": "2026-08-19T01:11:26.404083+00:00",
+  "published_at": "2026-08-18T20:47:15-04:00",
+  "title": "Implementation & Activation Associate Manager",
+  "company": "WPP Media",
+  "notified_at": null
+ },
+ "greenhouse:wppmedia:5368154008": {
+  "first_seen": "2026-08-19T01:11:26.404355+00:00",
+  "published_at": "2026-08-18T21:05:21-04:00",
+  "title": "Implementation & Activation Director",
+  "company": "WPP Media",
+  "notified_at": null
+ },
+ "greenhouse:wppmedia:5376054008": {
+  "first_seen": "2026-08-19T01:11:26.406419+00:00",
+  "published_at": "2026-08-18T20:53:00-04:00",
+  "title": "Implementation and Activation Executive ",
+  "company": "WPP Media",
+  "notified_at": null
+ },
+ "smartrecruiters:equinox:744000144181859": {
+  "first_seen": "2026-08-19T01:11:26.538699+00:00",
+  "published_at": "2026-08-19T00:00:35.392Z",
+  "title": "Membership Sales Advisors, La Costa",
+  "company": "Equinox Industries",
+  "notified_at": null
+ },
+ "smartrecruiters:equinox:744000144170479": {
+  "first_seen": "2026-08-19T01:11:26.538713+00:00",
+  "published_at": "2026-08-18T21:38:31.122Z",
+  "title": "Membership Sales Advisors, Palos Verdes",
+  "company": "Equinox Industries",
+  "notified_at": null
+ },
+ "smartrecruiters:sia:744000144176204": {
+  "first_seen": "2026-08-19T01:11:26.540853+00:00",
+  "published_at": "2026-08-18T22:39:44.488Z",
+  "title": "Applied AI Lead ",
+  "company": "Sia Partners",
+  "notified_at": null
+ },
+ "smartrecruiters:sia:744000144175700": {
+  "first_seen": "2026-08-19T01:11:26.540860+00:00",
+  "published_at": "2026-08-18T22:38:18.083Z",
+  "title": "Applied AI Lead ",
+  "company": "Sia Partners",
+  "notified_at": null
+ },
+ "smartrecruiters:sia:744000144175529": {
+  "first_seen": "2026-08-19T01:11:26.540864+00:00",
+  "published_at": "2026-08-18T22:27:11.450Z",
+  "title": " Project Manager / Business Analyst",
+  "company": "Sia Partners",
+  "notified_at": null
  }
 }
