@@ -36449,5 +36449,40 @@
   "title": "Manager in Training - Personal Training, San Francisco",
   "company": "Equinox Industries",
   "notified_at": null
+ },
+ "greenhouse:wppmedia:5376165008": {
+  "first_seen": "2026-08-19T06:41:52.577992+00:00",
+  "published_at": "2026-08-19T01:51:49-04:00",
+  "title": "Associate Director, Data & Analytics, Pakistan",
+  "company": "WPP Media",
+  "notified_at": null
+ },
+ "greenhouse:wppmedia:5375302008": {
+  "first_seen": "2026-08-19T06:41:52.629035+00:00",
+  "published_at": "2026-08-19T02:18:18-04:00",
+  "title": "Executive Media Planning, Pakistan",
+  "company": "WPP Media",
+  "notified_at": null
+ },
+ "greenhouse:wppmedia:5375292008": {
+  "first_seen": "2026-08-19T06:41:52.716714+00:00",
+  "published_at": "2026-08-19T02:38:06-04:00",
+  "title": "Senior Associate Media Planning, Pakistan",
+  "company": "WPP Media",
+  "notified_at": null
+ },
+ "greenhouse:wppmedia:5375398008": {
+  "first_seen": "2026-08-19T06:41:52.716981+00:00",
+  "published_at": "2026-08-19T02:01:12-04:00",
+  "title": "Senior Associate, Media Planning, Pakistan",
+  "company": "WPP Media",
+  "notified_at": null
+ },
+ "smartrecruiters:coface:744000144231529": {
+  "first_seen": "2026-08-19T06:41:52.775725+00:00",
+  "published_at": "2026-08-19T05:37:06.961Z",
+  "title": "Telesales Specialist with German (2-year fixed-term contract)",
+  "company": "Coface",
+  "notified_at": null
  }
 }
