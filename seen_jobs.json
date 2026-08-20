@@ -37380,5 +37380,103 @@
   "title": "Employée polyvalente / Employé polyvalent H/F",
   "company": "Natureo Finance",
   "notified_at": null
+ },
+ "greenhouse:digitalbridge:5215168007": {
+  "first_seen": "2026-08-20T18:37:53.668352+00:00",
+  "published_at": "2026-08-20T11:49:49-04:00",
+  "title": "Senior Accountant - Finance ",
+  "company": "DigitalBridge",
+  "notified_at": null
+ },
+ "greenhouse:impact:8648138002": {
+  "first_seen": "2026-08-20T18:37:53.730823+00:00",
+  "published_at": "2026-08-20T11:54:13-04:00",
+  "title": "Senior QA Engineer",
+  "company": "Impact Expansion",
+  "notified_at": null
+ },
+ "greenhouse:wppmedia:5396467008": {
+  "first_seen": "2026-08-20T18:37:53.933662+00:00",
+  "published_at": "2026-08-20T13:22:51-04:00",
+  "title": "Digital Strategy, Planning & Execution Manager",
+  "company": "WPP Media",
+  "notified_at": null
+ },
+ "greenhouse:wppmedia:5397077008": {
+  "first_seen": "2026-08-20T18:37:53.966956+00:00",
+  "published_at": "2026-08-20T13:07:30-04:00",
+  "title": "Junior Innovation Specialist",
+  "company": "WPP Media",
+  "notified_at": null
+ },
+ "smartrecruiters:coface:744000144588678": {
+  "first_seen": "2026-08-20T18:37:54.103394+00:00",
+  "published_at": "2026-08-20T15:40:51.614Z",
+  "title": "Business Development Officer - East",
+  "company": "Coface",
+  "notified_at": null
+ },
+ "smartrecruiters:equinox:744000144607044": {
+  "first_seen": "2026-08-20T18:37:54.103747+00:00",
+  "published_at": "2026-08-20T17:41:57.127Z",
+  "title": "Membership Sales Advisors, San Ramon",
+  "company": "Equinox Industries",
+  "notified_at": null
+ },
+ "smartrecruiters:equinox:744000144605269": {
+  "first_seen": "2026-08-20T18:37:54.103753+00:00",
+  "published_at": "2026-08-20T17:13:17.459Z",
+  "title": "Allocator, Retail",
+  "company": "Equinox Industries",
+  "notified_at": null
+ },
+ "smartrecruiters:equinox:744000144604839": {
+  "first_seen": "2026-08-20T18:37:54.103758+00:00",
+  "published_at": "2026-08-20T17:10:51.703Z",
+  "title": "Membership Sales Advisors, San Mateo",
+  "company": "Equinox Industries",
+  "notified_at": null
+ },
+ "smartrecruiters:equinox:744000144604769": {
+  "first_seen": "2026-08-20T18:37:54.103764+00:00",
+  "published_at": "2026-08-20T17:10:17.359Z",
+  "title": "E-Commerce Coordinator",
+  "company": "Equinox Industries",
+  "notified_at": null
+ },
+ "smartrecruiters:equinox:744000144589419": {
+  "first_seen": "2026-08-20T18:37:54.103769+00:00",
+  "published_at": "2026-08-20T15:43:15.123Z",
+  "title": "Experience Lead, East 63rd Street",
+  "company": "Equinox Industries",
+  "notified_at": null
+ },
+ "smartrecruiters:equinox:744000144589119": {
+  "first_seen": "2026-08-20T18:37:54.103774+00:00",
+  "published_at": "2026-08-20T15:42:33.270Z",
+  "title": "Experience Lead, Anthem Row",
+  "company": "Equinox Industries",
+  "notified_at": null
+ },
+ "smartrecruiters:equinox:744000144588948": {
+  "first_seen": "2026-08-20T18:37:54.103779+00:00",
+  "published_at": "2026-08-20T15:42:02.240Z",
+  "title": "Experience Lead, Pine Street",
+  "company": "Equinox Industries",
+  "notified_at": null
+ },
+ "smartrecruiters:equinox:744000144588719": {
+  "first_seen": "2026-08-20T18:37:54.103783+00:00",
+  "published_at": "2026-08-20T15:41:12.598Z",
+  "title": "Experience Lead, Sports Club LA",
+  "company": "Equinox Industries",
+  "notified_at": null
+ },
+ "smartrecruiters:sia:744000144591330": {
+  "first_seen": "2026-08-20T18:37:54.105907+00:00",
+  "published_at": "2026-08-20T15:57:29.144Z",
+  "title": "Senior Manager, Agentic AI Transformation - Banking & Capital Markets ",
+  "company": "Sia Partners",
+  "notified_at": null
  }
 }
