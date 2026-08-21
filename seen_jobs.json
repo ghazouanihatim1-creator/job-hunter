@@ -37877,5 +37877,33 @@
   "title": "Female Locker Room Associates, Yorkville",
   "company": "Equinox Industries",
   "notified_at": null
+ },
+ "greenhouse:wppmedia:5378919008": {
+  "first_seen": "2026-08-21T06:44:02.496111+00:00",
+  "published_at": "2026-08-21T00:24:27-04:00",
+  "title": "Executive Connection Planning",
+  "company": "WPP Media",
+  "notified_at": null
+ },
+ "lever:cic:dbd2fe90-d0e8-4491-834b-49c2e3c72bc9": {
+  "first_seen": "2026-08-21T06:44:02.639467+00:00",
+  "published_at": "2026-08-20T08:45:32.628000+00:00",
+  "title": "Program Lead Venture Café Fukuoka - Fukuoka, Japan",
+  "company": "CIC CIB Research",
+  "notified_at": null
+ },
+ "smartrecruiters:sia:744000144686459": {
+  "first_seen": "2026-08-21T06:44:02.646609+00:00",
+  "published_at": "2026-08-21T05:34:59.577Z",
+  "title": "AI Transformation & Strategy Consultant",
+  "company": "Sia Partners",
+  "notified_at": null
+ },
+ "smartrecruiters:sia:744000144686399": {
+  "first_seen": "2026-08-21T06:44:02.646616+00:00",
+  "published_at": "2026-08-21T05:33:55.691Z",
+  "title": "AI Transformation & Strategy Consultant",
+  "company": "Sia Partners",
+  "notified_at": null
  }
 }
